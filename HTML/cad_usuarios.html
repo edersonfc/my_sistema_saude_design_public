@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta name="description" content="Efc7 -  Admin Panel HTML Dashboard Template">
+	<meta name="author" content="Efc7w Technologies Private Limited">
+	<meta name="keywords"
+		content="admin,dashboard,panel,bootstrap admin template,bootstrap dashboard,dashboard,themeforest admin dashboard,themeforest admin,themeforest dashboard,themeforest admin panel,themeforest admin template,themeforest admin dashboard,cool admin,it dashboard,admin design,dash templates,saas dashboard,dmin ui design">
+
+	<!-- Favicon -->
+	<link rel="icon" href="../assets/img/brand/favicon.ico" type="image/x-icon" />
+
+	<!-- Title -->
+	<title>GISP - Gestão Integrada de Saúde Pública</title>
+
+	<!-- Bootstrap css-->
+	<link id="style" href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+	<!-- Icons css-->
+	<link href="../assets/plugins/web-fonts/icons.css" rel="stylesheet" />
+	<link href="../assets/plugins/web-fonts/font-awesome/font-awesome.min.css" rel="stylesheet">
+	<link href="../assets/plugins/web-fonts/plugin.css" rel="stylesheet" />
+
+	<!-- Style css-->
+	<link href="../assets/css/style.css" rel="stylesheet">
+
+	<!-- Select2 css -->
+	<link href="../assets/plugins/select2/css/select2.min.css" rel="stylesheet">
+
+</head>
+
+<body class="ltr main-body leftmenu">
+
+	<!-- Loader -->
+	<div id="global-loader">
+		<img src="../assets/img/loader.svg" class="loader-img" alt="Loader">
+	</div>
+	<!-- End Loader -->
+
+	<!-- Page -->
+	<div class="page">
+
+		<!-- Main Header-->
+		<div class="main-header side-header sticky">
+			<div class="main-container container-fluid">
+				<div class="main-header-left">
+					<a class="main-header-menu-icon" href="javascript:void(0)" id="mainSidebarToggle"><span></span></a>
+					<div class="hor-logo">
+						<a class="main-logo" href="index.html">
+							<img src="../assets/img/brand/logo.png" class="header-brand-img desktop-logo" alt="logo">
+							<img src="../assets/img/brand/logo-light.png" class="header-brand-img desktop-logo-dark"
+								alt="logo">
+						</a>
+					</div>
+				</div>
+				<div class="main-header-center">
+					<div class="responsive-logo">
+						<a href="index.html"><img src="../assets/img/brand/logo.png" class="mobile-logo" alt="logo"></a>
+						<a href="index.html"><img src="../assets/img/brand/logo-light.png" class="mobile-logo-dark"
+								alt="logo"></a>
+					</div>
+
+				</div>
+				<div class="main-header-right">
+					<button class="navbar-toggler navresponsive-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<i class="fe fe-more-vertical header-icons navbar-toggler-icon"></i>
+					</button><!-- Navresponsive closed -->
+					<div
+						class="navbar navbar-expand-lg  nav nav-item  navbar-nav-right responsive-navbar navbar-dark  ">
+						<div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+							<div class="d-flex order-lg-2 ms-auto">
+								<!-- Search -->
+								<div class="dropdown header-search">
+									<a class="nav-link icon header-search">
+										<i class="fe fe-search header-icons"></i>
+									</a>
+									<div class="dropdown-menu">
+										<div class="main-form-search p-2">
+											<div class="input-group">
+												<div class="input-group-btn search-panel">
+													<select class="form-control select2">
+														<option label="All categories">
+														</option>
+														<option value="IT Projects">
+															IT Projects
+														</option>
+														<option value="Business Case">
+															Business Case
+														</option>
+														<option value="Microsoft Project">
+															Microsoft Project
+														</option>
+														<option value="Risk Management">
+															Risk Management
+														</option>
+														<option value="Team Building">
+															Team Building
+														</option>
+													</select>
+												</div>
+												<input type="search" class="form-control"
+													placeholder="Search for anything...">
+												<button class="btn search-btn"><svg xmlns="http://www.w3.org/2000/svg"
+														width="20" height="20" viewBox="0 0 24 24" fill="none"
+														stroke="currentColor" stroke-width="2" stroke-linecap="round"
+														stroke-linejoin="round" class="feather feather-search">
+														<circle cx="11" cy="11" r="8"></circle>
+														<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+													</svg></button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Search -->
+								<!-- Theme-Layout -->
+								<div class="dropdown d-flex main-header-theme">
+									<a class="nav-link icon layout-setting">
+										<span class="dark-layout">
+											<i class="fe fe-sun header-icons"></i>
+										</span>
+										<span class="light-layout">
+											<i class="fe fe-moon header-icons"></i>
+										</span>
+									</a>
+								</div>
+
+								
+								<!-- Full screen -->
+								<div class="dropdown ">
+									<a class="nav-link icon full-screen-link">
+										<i class="fe fe-maximize fullscreen-button fullscreen header-icons"></i>
+										<i class="fe fe-minimize fullscreen-button exit-fullscreen header-icons"></i>
+									</a>
+								</div>
+								<!-- Full screen -->
+								<!-- Notification -->
+								<div class="dropdown main-header-notification">
+									<a class="nav-link icon" href="">
+										<i class="fe fe-bell header-icons"></i>
+										<span class="badge bg-danger nav-link-badge">4</span>
+									</a>
+									<div class="dropdown-menu">
+										<div class="header-navheading">
+											<p class="main-notification-text">Você tem novas Notificações<span
+													class="badge bg-pill bg-primary ms-3">Ver todas</span></p>
+										</div>
+										<div class="main-notification-list">
+											<div class="media new">
+												<div class="main-img-user online"><img alt="avatar"
+														src="../assets/img/users/5.jpg"></div>
+												<div class="media-body">
+													<p><strong>Olivia Ferreira</strong> <br /> Alinhamento de
+														Processos Médicos</p>
+													<span>Outubro 15 12:32pm</span>
+												</div>
+											</div>
+											<div class="media">
+												<div class="main-img-user"><img alt="avatar"
+														src="../assets/img/users/2.jpg">
+												</div>
+												<div class="media-body">
+													<p><strong>José Roberto</strong> <br /> Discuções da Saúde Básica
+													</p>
+													<span>Outubro 14 02:56am</span>
+												</div>
+											</div>
+											<div class="media">
+												<div class="main-img-user online"><img alt="avatar"
+														src="../assets/img/users/3.jpg"></div>
+												<div class="media-body">
+													<p><strong>Elizabeth Lewis</strong> <br />
+														Lançamento do novo sistema do SUS </p>
+													<span>Outubro 12 10:40pm</span>
+												</div>
+											</div>
+										</div>
+										<div class="dropdown-footer">
+											<a href="javascript:void(0)">Ver Todas Notificações</a>
+										</div>
+									</div>
+								</div>
+
+								<!-- Profile -->
+								<div class="dropdown main-profile-menu">
+									<a class="d-flex" href="javascript:void(0)">
+										<span class="main-img-user"><img alt="avatar"
+												src="../assets/img/users/1.jpg"></span>
+									</a>
+									<div class="dropdown-menu">
+										<div class="header-navheading">
+											<h6 class="main-notification-title">Sistema de Saúde</h6>
+											<p class="main-notification-text">Full-stack Developer: edersonfc7@gmail.com</p>
+										</div>
+										<a class="dropdown-item border-top" href="profile.html">
+											<i class="fe fe-user"></i> Meu Perfil
+										</a>
+										<a class="dropdown-item" href="profile.html">
+											<i class="fe fe-edit"></i> Editar Perfil
+										</a>
+										<a class="dropdown-item" href="profile.html">
+											<i class="fe fe-settings"></i> Configuração Conta
+										</a>
+										<a class="dropdown-item" href="profile.html">
+											<i class="fe fe-settings"></i> Suporte
+										</a>
+										<a class="dropdown-item" href="profile.html">
+											<i class="fe fe-compass"></i> Atividade
+										</a>
+										<a class="dropdown-item" href="signin.html">
+											<i class="fe fe-power"></i> Sair
+										</a>
+									</div>
+								</div>
+								<!-- Profile -->
+								<!-- Sidebar -->
+								<div class="dropdown  header-settings">
+									<a href="javascript:void(0)" class="nav-link icon" data-bs-toggle="sidebar-right"
+										data-bs-target=".sidebar-right">
+										<i class="fe fe-align-right header-icons"></i>
+									</a>
+								</div>
+								<!-- Sidebar -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Main Header-->
+
+		<!-- Sidemenu -->
+		<div class="sticky">
+			<div class="main-menu main-sidebar main-sidebar-sticky side-menu">
+				<div class="main-sidebar-header main-container-1 active  ">
+					<div class="sidemenu-logo" style=" background:#09394d!important;">
+						<a class="main-logo" href="index.html">
+							<img src="../assets/img/brand/logo-light.png" class="header-brand-img desktop-logo"
+								alt="logo">
+							<!-- <img src="../assets/img/brand/logo_inteiro_2.png" class="header-brand-img desktop-logo" alt="logo"> -->
+
+							<img src="../assets/img/brand/icon-light.png" class="header-brand-img icon-logo" alt="logo">
+							<!-- <img src="../assets/img/brand/logo_small_letter.png" class="header-brand-img icon-logo" style="width: 290px; height: auto;" alt="logo"> -->
+
+							<!-- <img src="../assets/img/brand/logo.png" class="header-brand-img desktop-logo theme-logo" -->
+							<img src="../assets/img/brand/logo_small_letter.png"
+								class="header-brand-img desktop-logo theme-logo" alt="logo">
+							<img src="../assets/img/brand/iconn.png" class="header-brand-img icon-logo theme-logo"
+								alt="logo">
+						</a>
+					</div>
+					<div class="main-sidebar-body main-body-1">
+						<div class="slide-left disabled" id="slide-left"><i class="fe fe-chevron-left"></i></div>
+						<ul class="menu-nav nav">
+							<li class="nav-header"><span class="nav-label">Dashboar</span></li>
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">
+									<span class="shape1"></span>
+									<span class="shape2"></span>
+									<i class="ti-home sidemenu-icon menu-icon "></i>
+									<span class="sidemenu-label">Dashboard</span>
+								</a>
+							</li>
+							<li class="nav-header"><span class="nav-label">SOLICITAÇÕES</span></li>
+							<li class="nav-item">
+								<a class="nav-link with-sub" href="javascript:void(0)">
+									<span class="shape1"></span>
+									<span class="shape2"></span>
+									<i class="ti-write sidemenu-icon menu-icon "></i>
+									<span class="sidemenu-label">Solicitar</span>
+									<i class="angle fe fe-chevron-right"></i>
+								</a>
+								<ul class="nav-sub">
+									<!-- <li class="side-menu-label1"><a href="javascript:void(0)">Apps</a></li> -->
+									<li class="nav-sub-item"><a class="nav-sub-link"
+											href="cad_solici_exame_imagem.html">Exame de Imagens</a>
+									</li>
+								</ul>
+
+								<li class="nav-header"><span class="nav-label">AUDITORIA</span></li>
+							<li class="nav-item">
+								<a class="nav-link with-sub" href="javascript:void(0)">
+									<span class="shape1"></span>
+									<span class="shape2"></span>
+									<i class="ti-wallet sidemenu-icon menu-icon "></i>
+									<span class="sidemenu-label">Auditar
+										<span class="sidemenu-label2"></span>
+									</span>
+									<i class="angle fe fe-chevron-right"></i>
+								</a>
+								<ul class="nav-sub">
+									<li class="nav-sub-item"><a class="nav-sub-link"
+											href="regulacao-painel.html">Regulação</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link with-sub" href="javascript:void(0)">
+									<span class="shape1"></span>
+									<span class="shape2"></span>
+									<i class="ti-shopping-cart-full sidemenu-icon menu-icon "></i>
+									<span class="sidemenu-label">Administração</span>
+									<!-- <span class="sidemenu-label">Ferramentas</span> -->
+									<i class="angle fe fe-chevron-right"></i>
+								</a>
+								<ul class="nav-sub">
+									
+									<li class="nav-sub-item"><a class="nav-sub-link"
+											href="cad_usuarios.html">Cadastrar Usuário</a></li>
+
+									<li class="nav-sub-item"><a class="nav-sub-link" href="cad_unidades.html">Cadastrar
+											Unidades</a></li>
+									<li class="nav-sub-item"><a class="nav-sub-link"
+											href="cad_profissional.html">Cadastrar
+											Profissionais</a></li>
+								</ul>
+							</li>
+							<li class="nav-header"><!-- <span class="nav-label">Landing</span> --></li>
+							
+						</ul>
+						<div class="slide-right" id="slide-right"><i class="fe fe-chevron-right"></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Sidemenu -->
+
+		<!-- Main Content-->
+		<div class="main-content side-content pt-50">
+
+			<div class="main-container container-fluid">
+				<div class="inner-body ">
+
+
+
+					<!-- Page Header -->
+					<div class="page-header">
+
+						<div>
+							<h2 class="main-content-title tx-24 mg-b-5  ">Cadastrar Novo Usuário</h2></div>
+
+					</div>
+					<!-- End Page Header -->
+
+					<!-- Row -->
+					<!-- <div class="row row-sm"> -->
+
+
+					<!-- O CONTEUDO VAI AQUI ABAIXO -->
+					<div class="card custom-card">
+						<div class="card-body ">
+
+							<form>
+								<!-- Linha 2 -->
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<label class="">Nome</label>
+											<input class="form-control" required="true" type="text">
+										</div>
+									</div>
+
+									<div class="col-sm-3">
+										<div class="form-group">
+											<label class="">Perfil Usuário</label>
+											<select class="form-control select select2 select2-hidden-accessible"
+												tabindex="-1" aria-hidden="true">
+												<option label="Date"></option>
+												<option value="0">Administrador</option>
+												<option value="1">Médico Regulador</option>
+												<option value="2">Central Regulação</option>
+												<option value="3">Médico de Unidade</option>
+												<option value="4">Enfermeiro</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="col-sm-3">
+										<div class="form-group">
+											<label class="">Cidades</label>
+											<select class="form-control select select2 select2-hidden-accessible"
+												tabindex="-1" aria-hidden="true">
+												<option label="Month"></option>
+												<option value="January">Araçatuba</option>
+												<option value="January">Andradina</option>
+												<option value="January">Campo Grande</option>
+												<option value="January">Eldorado</option>
+												<option value="January">Três Lagoas</option>
+											</select>
+										</div>
+									</div>
+								</div>
+
+								<!-- Linha 3 -->
+								<div class="row">
+
+									<div class="col-sm-12">
+										<div class="form-group">
+											<label class="">Adicionar Unidades de Atendimentos</label>
+											<select class="form-control select select2 select2-hidden-accessible"
+												tabindex="-1" aria-hidden="true">
+												<option label="Month"></option>
+												<option value="	0"> CENTRAL DE REGULACAO DE AGUA CLARA </option>
+												<option value="	1"> CENTRO DE ESPECIALIDADES MEDICAS DR JULIO MAIA
+												</option>
+												<option value="2">CLINICA DE ORTOPEDIA DR PAULO BACCARO FILHO </option>
+												<option value="3">PROGRAMA DST AIDS TRES LAGOAS </option>>
+												<option value="4">UNIDADE DE SAUDE DA FAMILIA EURIDICE CHAGAS CRUZ
+												</option>
+												<option value="5">UNIDADE DE SAUDE DA FAMILIA INTERLAGOS GABRIEL MARQUES
+													FERNA
+												</option>
+												<option value="6">UNIDADE DE SAUDE DA FAMILIA JARDIM ATENAS BISPO DOM
+													MOREIRA
+												</option>
+												<option value="7">UNIDADE DE SAUDE DA FAMILIA JARDIM MARISTELA </option>
+												<option value="8">UNIDADE DE SAUDE DA FAMILIA JOEL NEVES SILVA </option>
+												<option value="9">UNIDADE DE SAUDE DA FAMILIA MIGUEL NUNES </option>
+												<option value="10">UNIDADE DE SAUDE DA FAMILIA SANTO ANDRE </option>
+												<option value="11">UNIDADE DE SAUDE DA FAMILIA VILA ALEGRE </option>
+												<option value="12">UNIDADE DE SAUDE DA FAMILIA VILA HARO </option>
+												<option value="13">UNIDADE DE SAUDE DA FAMILIA VILA PILOTO ADRIANA
+													CRISTINA
+												</option>
+											</select>
+										</div>
+									</div>
+
+								</div>
+
+								<!-- Linha 4 -->
+								<div class="row">
+									<div class="col-sm-12 fs-18 text-start font-weight-bold ">
+										Credenciais de Acesso
+									</div>
+								</div>
+
+								<!-- Linha 5 -->
+								<div class="row">
+
+									<div class="col-sm-6">
+										<div class="form-group">
+											<label class="">Login/Apelido</label>
+											<input class="form-control" required="true" type="text">
+										</div>
+									</div>
+
+									<div class="col-sm-3">
+										<div class="form-group">
+											<label class="">Senha</label>
+											<input class="form-control" required="true" type="password">
+										</div>
+									</div>
+
+									<div class="col-sm-3">
+										<div class="form-group">
+											<label class="">Confirmar Senha</label>
+											<input class="form-control" required="true" type="password">
+										</div>
+									</div>
+
+								</div>
+
+					<!-- Linha 6 -->
+					<div class="row">
+
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label class="">Email de Recuperação de Senha</label>
+								<input class="form-control" required="true" type="text">
+							</div>
+						</div>
+
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label class="">Confirme o email</label>
+								<input class="form-control" required="true" type="text">
+							</div>
+						</div>
+
+					</div>
+
+
+								<!-- Linha 7 -->
+								<div class="row">
+									<div class="d-flex col-12 justify-content-center ">
+										<button class="btn btn-primary" type="submit">Salvar Usuário</button>
+									</div>
+								</div>
+
+							</form>
+
+						</div>
+
+
+
+					</div>
+					<!-- O CONTEUDO VAI AQUI ACIMA -->
+
+
+					<!-- </div> -->
+
+
+				</div>
+			</div>
+
+
+		</div>
+		<!-- End Main Content-->
+
+		<!-- Main Footer-->
+		<div class="main-footer text-center">
+			<div class="container">
+				<div class="row row-sm">
+					<div class="col-md-12">
+						<span>Copyright © 2024 &nbsp; Designed by
+							<a href="https://www.linkedin.com/in/ederson-feliciano-corsatto/"
+								target="_blank">Edersonfc7</a>
+							&nbsp;Todos direitos reservados.
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End Footer-->
+
+		<!-- Sidebar -->
+		<div class="sidebar sidebar-right sidebar-animate">
+			<div class="sidebar-icon">
+				<a href="javascript:void(0)" class="text-end float-end text-dark fs-20" data-bs-toggle="sidebar-right"
+					data-bs-target=".sidebar-right"><i class="fe fe-x"></i></a>
+			</div>
+			<div class="sidebar-body">
+				<h5>A fazer</h5>
+				<div class="d-flex p-3">
+					<label class="ckbox"><input checked type="checkbox"><span>Diagnóstico e tratamento</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<div class="d-flex p-3 border-top">
+					<label class="ckbox"><input type="checkbox"><span>Preparar para Apresentação</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<div class="d-flex p-3 border-top">
+					<label class="ckbox"><input type="checkbox"><span>Monitoramento de pacientes</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<div class="d-flex p-3 border-top">
+					<label class="ckbox"><input checked type="checkbox"><span>Educação em saúde</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<div class="d-flex p-3 border-top">
+					<label class="ckbox"><input type="checkbox"><span>Prevenção de doenças</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<div class="d-flex p-3 border-top">
+					<label class="ckbox"><input type="checkbox"><span>Colaboração interdisciplinar</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<div class="d-flex p-3 border-top">
+					<label class="ckbox"><input type="checkbox"><span>Planejamento Mensal</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<div class="d-flex p-3 border-top mb-0">
+					<label class="ckbox"><input type="checkbox"><span>Pesquisa clínica</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<h5>Visão Geral</h5>
+				<div class="p-4">
+					<div class="main-traffic-detail-item">
+						<div>
+							<span>Recrutamento de Profissionais</span> <span>24</span>
+						</div>
+						<div class="progress">
+							<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="20"
+								class="progress-bar progress-bar-xs wd-20p" role="progressbar"></div>
+						</div><!-- progress -->
+					</div>
+					<div class="main-traffic-detail-item">
+						<div>
+							<span>Agilidade na Atenção Básica</span> <span>25</span>
+						</div>
+						<div class="progress">
+							<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="15"
+								class="progress-bar progress-bar-xs bg-secondary wd-15p" role="progressbar"></div>
+						</div><!-- progress -->
+					</div>
+					<div class="main-traffic-detail-item">
+						<div>
+							<span>Eficiência em Prevenção </span> <span>87</span>
+						</div>
+						<div class="progress">
+							<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="45"
+								class="progress-bar progress-bar-xs bg-success wd-45p" role="progressbar"></div>
+						</div><!-- progress -->
+					</div>
+					<div class="main-traffic-detail-item">
+						<div>
+							<span>Encaminhamento entre Unidades</span> <span>32</span>
+						</div>
+						<div class="progress">
+							<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25"
+								class="progress-bar progress-bar-xs bg-info wd-25p" role="progressbar"></div>
+						</div><!-- progress -->
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- End Sidebar -->
+
+	</div>
+	<!-- End Page -->
+
+	<!-- Back-to-top -->
+	<a href="#top" id="back-to-top"><i class="fe fe-arrow-up"></i></a>
+
+	<!-- Jquery js-->
+	<script src="../assets/plugins/jquery/jquery.min.js"></script>
+
+	<!-- Bootstrap js-->
+	<script src="../assets/plugins/bootstrap/js/popper.min.js"></script>
+	<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Internal Check-all-mail js-->
+	<script src="../assets/js/check-all-mail.js"></script>
+
+	<!-- Sidemenu js -->
+	<script src="../assets/plugins/sidemenu/sidemenu.js" id="leftmenu"></script>
+
+	<!-- Sidebar js -->
+	<script src="../assets/plugins/sidebar/sidebar.js"></script>
+
+	<!-- Select2 js-->
+	<script src="../assets/plugins/select2/js/select2.min.js"></script>
+	<script src="../assets/js/select2.js"></script>
+
+	<!-- Color Theme js -->
+	<script src="../assets/js/themeColors.js"></script>
+
+	<!-- Sticky js -->
+	<script src="../assets/js/sticky.js"></script>
+
+	<!-- Perfect-scrollbar js -->
+	<script src="../assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+
+	<!-- Custom js -->
+	<script src="../assets/js/custom.js"></script>
+
+
+	<!-- Internal Form-layouts-->
+	<script src="../assets/js/form-layouts.js"></script>
+
+
+</body>
+
+</html>

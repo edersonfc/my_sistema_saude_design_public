@@ -1,0 +1,2226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta name="description" content="Efc7 -  Admin Panel HTML Dashboard Template">
+	<meta name="author" content="Efc7w Technologies Private Limited">
+	<meta name="keywords"
+		content="admin,dashboard,panel,bootstrap admin template,bootstrap dashboard,dashboard,themeforest admin dashboard,themeforest admin,themeforest dashboard,themeforest admin panel,themeforest admin template,themeforest admin dashboard,cool admin,it dashboard,admin design,dash templates,saas dashboard,dmin ui design">
+
+	<!-- Favicon -->
+	<link rel="icon" href="../assets/img/brand/favicon.ico" type="image/x-icon" />
+
+	<!-- Title -->
+	<title>GISP - Gestão Integrada de Saúde Pública</title>
+
+	<!-- Bootstrap css-->
+	<link id="style" href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+	<!-- Icons css-->
+	<link href="../assets/plugins/web-fonts/icons.css" rel="stylesheet" />
+	<link href="../assets/plugins/web-fonts/font-awesome/font-awesome.min.css" rel="stylesheet">
+	<link href="../assets/plugins/web-fonts/plugin.css" rel="stylesheet" />
+
+	<!-- Style css-->
+	<link href="../assets/css/style.css" rel="stylesheet">
+
+	<!-- Select2 css -->
+	<link href="../assets/plugins/select2/css/select2.min.css" rel="stylesheet">
+
+	<!-- Internal Gallery css-->
+	<link href="../assets/plugins/gallery/gallery.css" rel="stylesheet">
+
+	<style>
+		p {
+			margin-bottom: 1px;
+		}
+	</style>
+
+</head>
+
+<body class="ltr main-body leftmenu">
+
+	<!-- Loader -->
+	<div id="global-loader">
+		<img src="../assets/img/loader.svg" class="loader-img" alt="Loader">
+	</div>
+	<!-- End Loader -->
+
+	<!-- Page -->
+	<div class="page">
+
+		<!-- Main Header-->
+		<div class="main-header side-header sticky">
+			<div class="main-container container-fluid">
+				<div class="main-header-left">
+					<a class="main-header-menu-icon" href="javascript:void(0)" id="mainSidebarToggle"><span></span></a>
+					<div class="hor-logo">
+						<a class="main-logo" href="index.html">
+							<img src="../assets/img/brand/logo.png" class="header-brand-img desktop-logo" alt="logo">
+							<img src="../assets/img/brand/logo-light.png" class="header-brand-img desktop-logo-dark"
+								alt="logo">
+						</a>
+					</div>
+				</div>
+				<div class="main-header-center">
+					<div class="responsive-logo">
+						<a href="index.html"><img src="../assets/img/brand/logo.png" class="mobile-logo" alt="logo"></a>
+						<a href="index.html"><img src="../assets/img/brand/logo-light.png" class="mobile-logo-dark"
+								alt="logo"></a>
+					</div>
+
+					<!-- <div class="input-group">  OBS: Tentar Implementar uma Busca aqui mais pra Frente
+						<div class="input-group-btn search-panel">
+							<select class="form-control select2">
+								<option label="Todas categorias">
+								</option>
+								<option value="IT Projetos Ti">
+									Projetos Ti
+								</option>
+								<option value="Business Case">
+									Caso de Negócios
+								</option>
+								<option value="Microsoft Project">
+									Microsoft Project
+								</option>
+								<option value="Risk Management">
+									Gerenci. Riscos
+								</option>
+								<option value="Team Building">
+									Equipe Desenvolvimento
+								</option>
+							</select>
+						</div>
+						<input type="search" class="form-control rounded-0" placeholder="Search for anything...">
+						<button class="btn search-btn"><i class="fe fe-search"></i></button>
+					</div> -->
+
+				</div>
+				<div class="main-header-right">
+					<button class="navbar-toggler navresponsive-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<i class="fe fe-more-vertical header-icons navbar-toggler-icon"></i>
+					</button><!-- Navresponsive closed -->
+					<div
+						class="navbar navbar-expand-lg  nav nav-item  navbar-nav-right responsive-navbar navbar-dark  ">
+						<div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+							<div class="d-flex order-lg-2 ms-auto">
+
+								<!-- Search OBS: Tentar Implementar uma Busca aqui mais pra Frente
+								<div class="dropdown header-search">
+									<a class="nav-link icon header-search">
+										<i class="fe fe-search header-icons"></i>
+									</a>
+									<div class="dropdown-menu">
+										<div class="main-form-search p-2">
+											<div class="input-group">
+												<div class="input-group-btn search-panel">
+													<select class="form-control select2">
+														<option label="Todas categorias">
+														</option>
+														<option value="IT Projetos Ti">
+															Projetos Ti
+														</option>
+														<option value="Business Case">
+															Caso de Negócios
+														</option>
+														<option value="Microsoft Project">
+															Microsoft Project
+														</option>
+														<option value="Risk Management">
+															Gerenci. Riscos
+														</option>
+														<option value="Team Building">
+															Equipe Desenvolvimento
+														</option>
+													</select>
+												</div>
+												<input type="search" class="form-control"
+													placeholder="Search for anything...">
+												<button class="btn search-btn"><svg xmlns="http://www.w3.org/2000/svg"
+														width="20" height="20" viewBox="0 0 24 24" fill="none"
+														stroke="currentColor" stroke-width="2" stroke-linecap="round"
+														stroke-linejoin="round" class="feather feather-search">
+														<circle cx="11" cy="11" r="8"></circle>
+														<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+													</svg></button>
+											</div>
+										</div>
+									</div>
+								</div>
+								Search -->
+
+								<!-- Theme-Layout -->
+								<div class="dropdown d-flex main-header-theme">
+									<a class="nav-link icon layout-setting">
+										<span class="dark-layout">
+											<i class="fe fe-sun header-icons"></i>
+										</span>
+										<span class="light-layout">
+											<i class="fe fe-moon header-icons"></i>
+										</span>
+									</a>
+								</div>
+								<!-- Theme-Layout -->
+								<!-- country -->
+								<div class="dropdown main-header-notification flag-dropdown">
+									<a class="nav-link icon country-Flag">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+											<circle cx="256" cy="256" r="256" fill="#f0f0f0" />
+											<g fill="#0052b4">
+												<path
+													d="M52.92 100.142c-20.109 26.163-35.272 56.318-44.101 89.077h133.178L52.92 100.142zM503.181 189.219c-8.829-32.758-23.993-62.913-44.101-89.076l-89.075 89.076h133.176zM8.819 322.784c8.83 32.758 23.993 62.913 44.101 89.075l89.074-89.075H8.819zM411.858 52.921c-26.163-20.109-56.317-35.272-89.076-44.102v133.177l89.076-89.075zM100.142 459.079c26.163 20.109 56.318 35.272 89.076 44.102V370.005l-89.076 89.074zM189.217 8.819c-32.758 8.83-62.913 23.993-89.075 44.101l89.075 89.075V8.819zM322.783 503.181c32.758-8.83 62.913-23.993 89.075-44.101l-89.075-89.075v133.176zM370.005 322.784l89.075 89.076c20.108-26.162 35.272-56.318 44.101-89.076H370.005z" />
+											</g>
+											<g fill="#d80027">
+												<path
+													d="M509.833 222.609H289.392V2.167A258.556 258.556 0 00256 0c-11.319 0-22.461.744-33.391 2.167v220.441H2.167A258.556 258.556 0 000 256c0 11.319.744 22.461 2.167 33.391h220.441v220.442a258.35 258.35 0 0066.783 0V289.392h220.442A258.533 258.533 0 00512 256c0-11.317-.744-22.461-2.167-33.391z" />
+												<path
+													d="M322.783 322.784L437.019 437.02a256.636 256.636 0 0015.048-16.435l-97.802-97.802h-31.482v.001zM189.217 322.784h-.002L74.98 437.019a256.636 256.636 0 0016.435 15.048l97.802-97.804v-31.479zM189.217 189.219v-.002L74.981 74.98a256.636 256.636 0 00-15.048 16.435l97.803 97.803h31.481zM322.783 189.219L437.02 74.981a256.328 256.328 0 00-16.435-15.047l-97.802 97.803v31.482z" />
+											</g>
+										</svg>
+									</a>
+									<div class="dropdown-menu">
+										<a href="javascript:void(0)" class="dropdown-item d-flex ">
+											<span class="avatar  me-3 align-self-center bg-transparent"><img
+													src="../assets/img/flags/brasil_bandeira.jpg" alt="img"></span>
+											<div class="d-flex">
+												<span class="mt-2">Brasil</span>
+											</div>
+										</a>
+										<a href="javascript:void(0)" class="dropdown-item d-flex">
+											<span class="avatar me-3 align-self-center bg-transparent"><img
+													src="../assets/img/flags/italia_bandeira.jpg" alt="img"></span>
+											<div class="d-flex">
+												<span class="mt-2">Italia</span>
+											</div>
+										</a>
+
+										<a href="javascript:void(0)" class="dropdown-item d-flex">
+											<span class="avatar  me-3 align-self-center bg-transparent"><img
+													src="../assets/img/flags/espanha_bandeira.jpg" alt="img"></span>
+											<div class="d-flex">
+												<span class="mt-2">Espanha</span>
+											</div>
+										</a>
+									</div>
+								</div>
+								<!-- country -->
+								<!-- Full screen -->
+								<div class="dropdown ">
+									<a class="nav-link icon full-screen-link">
+										<i class="fe fe-maximize fullscreen-button fullscreen header-icons"></i>
+										<i class="fe fe-minimize fullscreen-button exit-fullscreen header-icons"></i>
+									</a>
+								</div>
+								<!-- Full screen -->
+
+
+								<!-- Notification -->
+								<div class="dropdown main-header-notification">
+									<a class="nav-link icon" href="">
+										<i class="fe fe-bell header-icons"></i>
+										<span class="badge bg-danger nav-link-badge">4</span>
+									</a>
+									<div class="dropdown-menu">
+										<div class="header-navheading">
+											<p class="main-notification-text">Você tem novas Notificações<span
+													class="badge bg-pill bg-primary ms-3">Ver todas</span></p>
+										</div>
+										<div class="main-notification-list">
+											<div class="media new">
+												<div class="main-img-user online"><img alt="avatar"
+														src="../assets/img/users/5.jpg"></div>
+												<div class="media-body">
+													<p><strong>Olivia Ferreira</strong> <br /> Alinhamento de
+														Processos Médicos</p>
+													<span>Outubro 15 12:32pm</span>
+												</div>
+											</div>
+											<div class="media">
+												<div class="main-img-user"><img alt="avatar"
+														src="../assets/img/users/2.jpg">
+												</div>
+												<div class="media-body">
+													<p><strong>José Roberto</strong> <br /> Discuções da Saúde Básica
+													</p>
+													<span>Outubro 14 02:56am</span>
+												</div>
+											</div>
+											<div class="media">
+												<div class="main-img-user online"><img alt="avatar"
+														src="../assets/img/users/3.jpg"></div>
+												<div class="media-body">
+													<p><strong>Elizabeth Lewis</strong> <br />
+														Lançamento do novo sistema do SUS </p>
+													<span>Outubro 12 10:40pm</span>
+												</div>
+											</div>
+										</div>
+										<div class="dropdown-footer">
+											<a href="javascript:void(0)">Ver Todas Notificações</a>
+										</div>
+									</div>
+								</div>
+								<!-- Notification -->
+
+
+								<!-- Profile -->
+								<div class="dropdown main-profile-menu">
+									<a class="d-flex" href="javascript:void(0)">
+										<span class="main-img-user"><img alt="avatar"
+												src="../assets/img/users/1.jpg"></span>
+									</a>
+									<div class="dropdown-menu">
+										<div class="header-navheading">
+											<h6 class="main-notification-title">Sistema de Saúde</h6>
+											<p class="main-notification-text">Full-stack Developer: edersonfc7@gmail.com
+											</p>
+										</div>
+										<a class="dropdown-item border-top" href="profile.html">
+											<i class="fe fe-user"></i> Meu Perfil
+										</a>
+										<a class="dropdown-item" href="profile.html">
+											<i class="fe fe-edit"></i> Editar Perfil
+										</a>
+										<a class="dropdown-item" href="profile.html">
+											<i class="fe fe-settings"></i> Configuração Conta
+										</a>
+										<a class="dropdown-item" href="profile.html">
+											<i class="fe fe-settings"></i> Suporte
+										</a>
+										<a class="dropdown-item" href="profile.html">
+											<i class="fe fe-compass"></i> Atividade
+										</a>
+										<a class="dropdown-item" href="signin.html">
+											<i class="fe fe-power"></i> Sair
+										</a>
+									</div>
+								</div>
+								<!-- Profile -->
+
+								<!-- Sidebar -->
+								<div class="dropdown  header-settings">
+									<a href="javascript:void(0)" class="nav-link icon" data-bs-toggle="sidebar-right"
+										data-bs-target=".sidebar-right">
+										<i class="fe fe-align-right header-icons"></i>
+									</a>
+								</div>
+								<!-- Sidebar -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Main Header-->
+
+		<!-- Sidemenu -->
+		<div class="sticky">
+			<div class="main-menu main-sidebar main-sidebar-sticky side-menu">
+				<div class="main-sidebar-header main-container-1 active  ">
+					<div class="sidemenu-logo" style=" background:#09394d!important;">
+						<a class="main-logo" href="index.html">
+							<img src="../assets/img/brand/logo-light.png" class="header-brand-img desktop-logo"
+								alt="logo">
+							<!-- <img src="../assets/img/brand/logo_inteiro_2.png" class="header-brand-img desktop-logo" alt="logo"> -->
+
+							<img src="../assets/img/brand/icon-light.png" class="header-brand-img icon-logo" alt="logo">
+							<!-- <img src="../assets/img/brand/logo_small_letter.png" class="header-brand-img icon-logo" style="width: 290px; height: auto;" alt="logo"> -->
+
+							<!-- <img src="../assets/img/brand/logo.png" class="header-brand-img desktop-logo theme-logo" -->
+							<img src="../assets/img/brand/logo_small_letter.png"
+								class="header-brand-img desktop-logo theme-logo" alt="logo">
+							<img src="../assets/img/brand/iconn.png" class="header-brand-img icon-logo theme-logo"
+								alt="logo">
+						</a>
+					</div>
+					<div class="main-sidebar-body main-body-1">
+						<div class="slide-left disabled" id="slide-left"><i class="fe fe-chevron-left"></i></div>
+						<ul class="menu-nav nav">
+							<li class="nav-header"><span class="nav-label">Dashboar</span></li>
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">
+									<span class="shape1"></span>
+									<span class="shape2"></span>
+									<i class="ti-home sidemenu-icon menu-icon "></i>
+									<span class="sidemenu-label">Dashboard</span>
+								</a>
+							</li>
+							<li class="nav-header"><span class="nav-label">SOLICITAÇÕES</span></li>
+							<li class="nav-item">
+								<a class="nav-link with-sub" href="javascript:void(0)">
+									<span class="shape1"></span>
+									<span class="shape2"></span>
+									<i class="ti-write sidemenu-icon menu-icon "></i>
+									<span class="sidemenu-label">Solicitar</span>
+									<i class="angle fe fe-chevron-right"></i>
+								</a>
+								<ul class="nav-sub">
+									<!-- <li class="side-menu-label1"><a href="javascript:void(0)">Apps</a></li> -->
+									<li class="nav-sub-item"><a class="nav-sub-link"
+											href="cad_solici_exame_imagem.html">Exame de Imagens</a>
+									</li>
+								</ul>
+
+							<li class="nav-header"><span class="nav-label">AUDITORIA</span></li>
+							<li class="nav-item">
+								<a class="nav-link with-sub" href="javascript:void(0)">
+									<span class="shape1"></span>
+									<span class="shape2"></span>
+									<i class="ti-wallet sidemenu-icon menu-icon "></i>
+									<span class="sidemenu-label">Auditar
+										<span class="sidemenu-label2"></span>
+									</span>
+									<i class="angle fe fe-chevron-right"></i>
+								</a>
+								<ul class="nav-sub">
+
+
+
+									<li class="nav-sub-item"><a class="nav-sub-link"
+											href="regulacao-painel.html">Regulação</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link with-sub" href="javascript:void(0)">
+									<span class="shape1"></span>
+									<span class="shape2"></span>
+									<i class="ti-shopping-cart-full sidemenu-icon menu-icon "></i>
+									<span class="sidemenu-label">Administração</span>
+									<!-- <span class="sidemenu-label">Ferramentas</span> -->
+									<i class="angle fe fe-chevron-right"></i>
+								</a>
+								<ul class="nav-sub">
+
+									<li class="nav-sub-item"><a class="nav-sub-link" href="cad_usuarios.html">Cadastrar
+											Usuário</a></li>
+
+									<li class="nav-sub-item"><a class="nav-sub-link" href="cad_unidades.html">Cadastrar
+											Unidades</a></li>
+									<li class="nav-sub-item"><a class="nav-sub-link"
+											href="cad_profissional.html">Cadastrar
+											Profissionais</a></li>
+								</ul>
+							</li>
+							<li class="nav-header"><!-- <span class="nav-label">Landing</span> --></li>
+
+
+						</ul>
+						<div class="slide-right" id="slide-right"><i class="fe fe-chevron-right"></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Sidemenu -->
+
+		<!-- Main Content-->
+		<div class="main-content side-content pt-0">
+
+			<div class="main-container container-fluid">
+				<div class="inner-body">
+
+					<!-- Page Header -->
+					<div class="page-header">
+						<div>
+							<h2 class="main-content-title tx-24 mg-b-5">Perfil</h2>
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="#">Paginas</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Perfil</li>
+							</ol>
+						</div>
+						<div class="d-flex">
+							<div class="justify-content-center">
+								<button type="button" class="btn btn-white btn-icon-text my-2 me-2">
+									<i class="fe fe-download me-2"></i> Importar
+								</button>
+								<button type="button" class="btn btn-white btn-icon-text my-2 me-2">
+									<i class="fe fe-filter me-2"></i> Filtrar
+								</button>
+								<button type="button" class="btn btn-primary my-2 btn-icon-text">
+									<i class="fe fe-download-cloud me-2"></i> Download Report
+								</button>
+							</div>
+						</div>
+					</div>
+					<!-- End Page Header -->
+
+					<div class="row square">
+						<div class="col-lg-12 col-md-12">
+							<div class="card custom-card">
+								<div class="card-body">
+									<div class="panel profile-cover">
+										<div class="profile-cover__img">
+											<img src="../assets/img/users/1.jpg" alt="img" />
+											<h3 class="h3">Sistema de Saúde</h3>
+										</div>
+										<div class="btn-profile">
+											<button class="btn btn-rounded btn-danger">
+												<i class="fa fa-plus"></i>
+												<span>Seguir</span>
+											</button>
+											<button class="btn btn-rounded btn-success">
+												<i class="fa fa-comment"></i>
+												<span>Menssagem</span>
+											</button>
+										</div>
+										<div class="profile-cover__action bg-img"></div>
+										<div class="profile-cover__info">
+											<ul class="nav">
+												<li><strong>26</strong>Projetos</li>
+												<li><strong>33</strong>Seguidores</li>
+												<li><strong>136</strong>Seguindo</li>
+											</ul>
+										</div>
+									</div>
+									<div class="profile-tab tab-menu-heading">
+										<nav class="nav main-nav-line p-3 tabs-menu profile-nav-line bg-gray-100">
+											<a class="nav-link  active" data-bs-toggle="tab" href="#about">Sobre
+												Você</a>
+											<a class="nav-link" data-bs-toggle="tab" href="#edit">Editar Perfil</a>
+											<a class="nav-link" data-bs-toggle="tab" href="#timeline">Timeline</a>
+											<a class="nav-link" data-bs-toggle="tab" href="#gallery">Galleria</a>
+											<a class="nav-link" data-bs-toggle="tab" href="#friends">Amigos</a>
+											<a class="nav-link" data-bs-toggle="tab" href="#settings">Configuração da
+												Conta</a>
+										</nav>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Row -->
+					<div class="row row-sm">
+						<div class="col-lg-12 col-md-12">
+							<div class="card custom-card main-content-body-profile">
+								<div class="tab-content">
+
+
+									<div class="main-content-body tab-pane p-4 border-top-0 active" id="about">
+
+										<!-- PRIMEIRA ABA -->
+										<div class="card-body p-0 border p-0 rounded-10">
+											<div class="p-4">
+												<h4 class="tx-15 text-uppercase mb-3">BIOdata</h4>
+												<p class="m-b-5">
+
+													Iniciei minha jornada na tecnologia da informação em 2011, onde
+													lecionei por cinco anos e meio como instrutor de informática.
+													Durante esse período, desenvolvi habilidades didático-pedagógicas
+													focadas no ensino de tecnologia e informática.
+
+												<p>Nos últimos nove anos, atuei e continuo atuando no desenvolvimento de
+													sistemas desktop, web e mobile como desenvolvedor full stack,
+													abrangendo tanto o front-end quanto o back-end. Minha experiência
+													prática me proporcionou competências sólidas em análise de falhas e
+													soluções objetivas, especialmente em segurança da informação e
+													desempenho de sistemas.</p>
+
+												Ao longo da minha carreira, implementei técnicas de identificação de
+												vulnerabilidades, testes automatizados, pipelines de deploy,
+												versionamento de código, otimização de algoritmos e modelagem de dados.
+												Esses esforços resultaram em melhorias significativas na segurança e
+												performance dos sistemas em que trabalhei.
+
+												</p>
+												<div class="m-t-30">
+													<h4 class="tx-15 text-uppercase mt-3">Experiência</h4>
+													<div class=" p-t-10">
+														<h5 class="text-primary m-b-5 tx-14">Analista de Sistema /
+															Sênior
+														</h5>
+
+														<p><b>2022-2024</b></p>
+														<p class="text-muted tx-13 m-b-0">
+														<p>
+															Análise e interpretação de documentações de requisitos.
+															Desenvolvimento de funcionalidades (FrontEnd e BackEnd) de
+															acordo com as tarefas designadas, utilizando boas práticas
+															de codificação, com técnicas de código limpo e arquitetura
+															limpa.
+															Descrição e registro dos parâmetros de aceite no Jira,
+															abordando tanto os detalhes técnicos quanto os de negócios.
+														</p>
+														<p>
+															Gestão de tarefas no Jira, atualizando os cards conforme o
+															progresso das atividades e criando os story points.
+														</p>
+														<p>
+															Revisão de código (CodeReview) em conjunto com a equipe,
+															garantindo a qualidade e a consistência do produto final.
+														</p>
+														<p>
+															Realização de testes unitários automatizados, resultando na
+															melhoria da qualidade do código e na redução de falhas em
+															produção.
+														</p>
+														<p>
+															Versionamento, e implementação de esteiras de deploy
+															automatizados
+														<p>
+															Planejamento, desenvolvimento e suporte técnico de
+															infra-estrutura dos Clientes.
+														</p>
+														<p>
+															Nesta mesma empresa, atuei também, como Suporte
+															sub-terceirizado para empresa Zurick Santanter, onde tinha
+															como função verificar se as VMs e todos os seus serviços de
+															aplicações, relacionado a comunicações CCM da (Quadient)
+															estão funcionando, bem como solucionar problemas de
+															comunicação entre esses serviços, requisitados pelos
+															utilizadores e fazer as atualizações das aplicações e
+															modificação das estruturas quando nescessários e acordado
+															préviamente pela equipe, também dava suporte aos serviços de
+															comunicações do ALFRESCO ECM (Enterprise Content
+															Management), participava de reuniões constantes com o
+															pessoal de infra e PO de projetos, onde cheguei realizar
+															desenvolvimentos de front com C# para o portalPJ, sou
+															apaixonado pela área de tecnologia, e acredito que isso me
+															faz desempenhar bem o meu papel na área.
+														</p>
+
+														</p>
+													</div>
+
+													<br>
+
+													<div class="">
+														<h5 class="text-primary m-b-5 tx-14">Técnico de Desenvolvimento
+															de Sistemas
+														</h5>
+
+														<p><b>2015-2021</b></p>
+														<p class="text-muted tx-13 mb-0">
+														<p>
+															Nessa empresa atuei por 6 anos, como único desenvolvedor, no
+															Desenvolvimento de aplicação desktop com java JSE (Java
+															Standard Edition) e também fazia criação de planilhas
+															avançadas com automatização por macros, mas o foco principal
+															era o desenvolvimento, onde desenvolvi 3 aplicações:
+														</p>
+														<p>
+															Uma para o gerenciamento de comunicações internas entre os
+															setores da empresa, melhorando o gerenciamento de tarefas e
+															comunicação entre os setores.
+														</p>
+														<p>
+															Uma segunda aplicação era um gerador e gerenciador de
+															contrato completo, onde rapidamente os usuários criavam os
+															contratos, e esse mesmo possibilitava futuramente inclusão e
+															remoção de cláusulas facilmente, possibilitando aditivos nos
+															contratos mantendo o histórico, bem como buscar rapidamente
+															qualquer contrato de qualquer cliente.
+														</p>
+														<p>
+															Uma terceira aplicação, que foi o que gerou mais benefício
+															para a empresa, no setor da pecuária, foi a criação de um
+															pequeno ERP personalizado, de gestão completa para pecuária,
+															que substituiu o ERP anterior que tinha custos altos e não
+															era personalizado às necessidades da empresa.
+														</p>
+
+														</p>
+													</div>
+
+													<br>
+
+													<div class="">
+														<h5 class="text-primary m-b-5 tx-14">Instrutor de informática
+															de Sistemas
+														</h5>
+
+														<p><b>2011-2017</b></p>
+														<p class="text-muted tx-13 mb-0">
+														<p>
+															Atuei como instrutor por 5 anos e meio, ministrando aulas de
+															informática básica e avançada, programação, design gráfico e
+															outras tecnologias correlatas para uma ampla variedade de
+															faixas etárias. Durante esse período, desenvolvi habilidades
+															pedagógicas adaptadas às necessidades individuais de cada
+															aluno, observando suas dificuldades, facilidades e
+															motivações específicas em cada área de estudo.
+														</p>
+													</div>
+
+
+												</div>
+												<div class="border-top"></div>
+												<div class="p-4">
+													<label class="main-content-label tx-13 mg-b-20">Contato</label>
+													<div class="d-sm-flex">
+														<div class="mg-sm-r-20 mg-b-10">
+															<div class="main-profile-contact-list">
+																<div class="media">
+																	<div
+																		class="media-icon bg-primary-transparent text-primary">
+																		<i class="icon ion-md-phone-portrait"></i>
+																	</div>
+																	<div class="media-body"> <span>Celular</span>
+																		<div> +55 (67) 99324-4226 </div>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+
+														<div class="">
+															<div class="main-profile-contact-list">
+																<div class="media">
+																	<div
+																		class="media-icon bg-info-transparent text-info">
+																		<i class="icon ion-md-locate"></i>
+																	</div>
+																	<div class="media-body"> <span>
+																			Endereço</span>
+																		<div> Três Lagoas, MS </div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="border-top"></div>
+												<div class="p-3 p-sm-4">
+													<label class="main-content-label tx-13 mg-b-20">Social</label>
+													<div class="d-xl-flex">
+														<div class="mg-md-r-20 mg-b-10">
+															<div class="main-profile-social-list">
+																<div class="media">
+																	<div
+																		class="media-icon bg-primary-transparent text-primary">
+																		<i class="icon ion-logo-github"></i>
+																	</div>
+																	<div class="media-body"> <span>Github</span>
+																		<a href="https://github.com/edersonfc"
+																			target="_blank">https://github.com/edersonfc
+																		</a>
+
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="mg-md-r-20 mg-b-10">
+															<div class="main-profile-social-list">
+																<div class="media">
+																	<div
+																		class="media-icon bg-success-transparent text-success">
+																		<i class="icon ion-logo-twitter"></i>
+																	</div>
+																	<div class="media-body"> <span>Twitter</span> <a
+																			href="">twitter.com/</a> </div>
+																</div>
+															</div>
+														</div>
+														<div class="mg-md-r-20 mg-b-10">
+															<div class="main-profile-social-list">
+																<div class="media">
+																	<div
+																		class="media-icon bg-info-transparent text-info">
+																		<i class="icon ion-logo-linkedin"></i>
+																	</div>
+
+																	<div class="media-body">
+																		<span>Linkedin</span>
+																		<a href="https://www.linkedin.com/in/ederson-feliciano-corsatto"
+																			target="_blank">linkedin.com/in/ederson-feliciano-corsatto
+																		</a>
+																	</div>
+
+
+																</div>
+															</div>
+														</div>
+														<!-- <div class="mg-md-r-20 mg-b-10"> IMPLEMENTAR QUANDO EU TIVER PORTIFÓLIO NÃO APAGAR
+															<div class="main-profile-social-list">
+																<div class="media">
+																	<div
+																		class="media-icon bg-danger-transparent text-danger">
+																		<i class="icon ion-md-link"></i>
+																	</div>
+																	<div class="media-body"> <span>My Portfolio</span>
+																		<a href="">spruko.com/</a>
+																	</div>
+																</div>
+															</div>
+														</div> -->
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+									<!-- SEGUNDA ABA -->
+									<div class="main-content-body tab-pane p-4 border-top-0" id="edit">
+										<div class="card-body border">
+											<div class="mb-4 main-content-label">Informação Pessoal</div>
+											<form class="form-horizontal">
+												<div class="mb-4 main-content-label">Nome</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-3">
+															<label class="form-label">Nome Usuário</label>
+														</div>
+														<div class="col-md-9">
+															<input type="text" class="form-control"
+																placeholder="User Name" value="Edersonfc7">
+														</div>
+													</div>
+												</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-3">
+															<label class="form-label">Primeiro Nome</label>
+														</div>
+														<div class="col-md-9">
+															<input type="text" class="form-control"
+																placeholder="First Name" value="Ederson">
+														</div>
+													</div>
+												</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-3">
+															<label class="form-label">Sobrenome</label>
+														</div>
+														<div class="col-md-9">
+															<input type="text" class="form-control"
+																placeholder="Last Name" value="Feliciano Corsatto">
+														</div>
+													</div>
+												</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-3">
+															<label class="form-label">Nick Name</label>
+														</div>
+														<div class="col-md-9">
+															<input type="text" class="form-control"
+																placeholder="Nick Name" value="DeepFilter">
+														</div>
+													</div>
+												</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-3">
+															<label class="form-label">Designação</label>
+														</div>
+														<div class="col-md-9">
+															<input type="text" class="form-control"
+																placeholder="Designation" value="Full-stack Developer">
+														</div>
+													</div>
+												</div>
+												<div class="mb-4 main-content-label">Informação de Contato</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-3">
+															<label class="form-label">Email<i>(required)</i></label>
+														</div>
+														<div class="col-md-9">
+															<input type="text" class="form-control" placeholder="Email"
+																value="edersonfc7@gmail.com">
+														</div>
+													</div>
+												</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-3">
+															<label class="form-label">Website</label>
+														</div>
+														<div class="col-md-9">
+															<input type="text" class="form-control"
+																placeholder="Website" value="gadoapp.com.br">
+														</div>
+													</div>
+												</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-3">
+															<label class="form-label">Telefone</label>
+														</div>
+														<div class="col-md-9">
+															<input type="text" class="form-control"
+																placeholder="phone number" value="+55 (67) 99324-4226">
+														</div>
+													</div>
+												</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-3">
+															<label class="form-label">Endereço</label>
+														</div>
+														<div class="col-md-9">
+															<textarea class="form-control" name="example-textarea-input"
+																rows="2"
+																placeholder="Address">Três Lagoas, MS</textarea>
+														</div>
+													</div>
+												</div>
+												<div class="mb-4 main-content-label">Social Info</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-3">
+															<label class="form-label">Twitter</label>
+														</div>
+														<div class="col-md-9">
+															<input type="text" class="form-control"
+																placeholder="twitter" value="twitter.com/">
+														</div>
+													</div>
+												</div>
+
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-3">
+															<label class="form-label">Linked in</label>
+														</div>
+														<div class="col-md-9">
+															<input type="text" class="form-control"
+																placeholder="linkedin"
+																value="linkedin.com/in/ederson-feliciano-corsatto">
+														</div>
+													</div>
+												</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-3">
+															<label class="form-label">Github</label>
+														</div>
+														<div class="col-md-9">
+															<input type="text" class="form-control" placeholder="github"
+																value="https://github.com/edersonfc">
+														</div>
+													</div>
+												</div>
+
+
+												<div class="mb-4 main-content-label">Preferências de e-mail</div>
+												<div class="form-group mb-0">
+													<div class="row row-sm">
+														<div class="col-md-3">
+															<label class="form-label">Usuário verificado</label>
+														</div>
+														<div class="col-md-9">
+															<div class="form-controls-stacked">
+																<label class="ckbox mg-b-10"><input checked=""
+																		type="checkbox"><span> Aceitar receber
+																		e-mails de notificação de postagens ou
+																		páginas</span></label>
+																<label class="ckbox"><input checked=""
+																		type="checkbox"><span> Aceitar receber
+																		e-mails enviados para vários
+																		destinatários</span></label>
+															</div>
+														</div>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+
+									<!-- TERCEIRA ABA -->
+									<div class="main-content-body  tab-pane border-top-0" id="timeline">
+										<div class="border p-4">
+											<div class="main-content-body main-content-body-profile">
+												<div class="main-profile-body p-0">
+													<div class="row row-sm">
+														<div class="col-12">
+															<div class="card mg-b-20 border">
+																<div class="card-header p-4">
+																	<div class="media">
+																		<div class="media-user me-2">
+																			<div class="main-img-user avatar-md">
+																				<img alt="" class="rounded-circle"
+																					src="../assets/img/users/6.jpg">
+																			</div>
+																		</div>
+																		<div class="media-body">
+																			<h6 class="mb-0 mg-t-2 ms-2">Ederson
+																				Feliciano Corsatto</h6><span
+																				class="text-primary ms-2">just
+																				now</span>
+																		</div>
+																		<div class="ms-auto">
+																			<div class="dropdown show"> <a
+																					class="new option-dots2"
+																					data-bs-toggle="dropdown"
+																					href="JavaScript:void(0);"><i
+																						class="fas fa-ellipsis-v"></i></a>
+																				<div
+																					class="dropdown-menu dropdown-menu-end shadow">
+																					<a class="dropdown-item"
+																						href="#">Edit Post</a> <a
+																						class="dropdown-item"
+																						href="#">Delete Post</a> <a
+																						class="dropdown-item"
+																						href="#">Personal
+																						Settings</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="card-body">
+																	<p class="mg-t-0">
+																		A inteligência artificial refere-se à capacidade
+																		das máquinas de realizar tarefas que normalmente
+																		exigiriam inteligência humana. Utilizando
+																		algoritmos complexos e dados, a IA pode
+																		aprender, raciocinar, resolver problemas e até
+																		mesmo interagir de forma semelhante aos seres
+																		humanos, transformando diversos setores com suas
+																		aplicações inovadoras
+																	</p>
+																	<div class="row row-sm">
+																		<div class="col"> <img alt="img"
+																				class="wd-200 me-4"
+																				src="../assets/img/media/1.jpg">
+																			<img alt="img" class="wd-200"
+																				src="../assets/img/media/2.jpg">
+																		</div>
+																	</div>
+																	<div class="media mg-t-15 profile-footer">
+																		<div class="media-user me-2">
+																			<div class="demo-avatar-group">
+																				<div
+																					class="demo-avatar-group main-avatar-list-stacked">
+																					<div class="main-img-user"><img
+																							alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/12.jpg">
+																					</div>
+																					<div class="main-img-user"><img
+																							alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/12.jpg">
+																					</div>
+																					<div class="main-img-user"><img
+																							alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/3.jpg">
+																					</div>
+																					<div class="main-img-user online">
+																						<img alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/5.jpg">
+																					</div>
+																					<div class="main-img-user"><img
+																							alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/6.jpg">
+																					</div>
+																					<div class="main-avatar"> +23
+																					</div>
+																				</div>
+																				<!-- demo-avatar-group -->
+																			</div>
+																			<!-- demo-avatar-group -->
+																		</div>
+																		<div class="media-body">
+																			<h6 class="mb-0 mg-t-10">28 Pessoas que
+																				gostaram</h6>
+																		</div>
+																		<div class="ms-auto">
+																			<div class="dropdown show"> <a class="new"
+																					href="JavaScript:void(0);"><i
+																						class="far fa-heart me-3"></i></a>
+																				<a class="new"
+																					href="JavaScript:void(0);"><i
+																						class="far fa-comment me-3"></i></a>
+																				<a class="new"
+																					href="JavaScript:void(0);"><i
+																						class="far fa-share-square"></i></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="card mg-b-20 border">
+																<div class="card-header p-4">
+																	<div class="media">
+																		<div class="media-user me-2">
+																			<div class="main-img-user avatar-md">
+																				<img alt="" class="rounded-circle"
+																					src="../assets/img/users/6.jpg">
+																			</div>
+																		</div>
+																		<div class="media-body">
+																			<h6 class="mb-0 ms-2 mg-t-3">Ederson
+																				Feliciano Corsatto</h6><span
+																				class="text-muted ms-2">Sep 26 2019,
+																				10:14am</span>
+																		</div>
+																		<div class="ms-auto">
+																			<div class="dropdown show"> <a
+																					class="new option-dots2"
+																					data-bs-toggle="dropdown"
+																					href="JavaScript:void(0);"><i
+																						class="fas fa-ellipsis-v"></i></a>
+																				<div
+																					class="dropdown-menu dropdown-menu-end shadow">
+																					<a class="dropdown-item"
+																						href="#">Edit Post</a> <a
+																						class="dropdown-item"
+																						href="#">Delete Post</a> <a
+																						class="dropdown-item"
+																						href="#">Personal
+																						Settings</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="card-body h-100">
+																	<p class="mg-t-0">Cuidar da saúde cardiovascular é
+																		essencial para uma vida plena e ativa. Isso
+																		envolve hábitos como exercícios regulares, uma
+																		dieta balanceada e exames médicos periódicos.
+																		Priorizar o bem-estar do coração não apenas
+																		melhora a qualidade de vida, mas também reduz o
+																		risco de doenças crônicas e promove longevidade.
+																	</p>
+																	<div class="row row-sm">
+																		<div class="col"> <img alt="img"
+																				class="wd-200 me-4"
+																				src="../assets/img/media/4.jpg">
+																			<img alt="img" class="wd-200"
+																				src="../assets/img/media/5.jpg">
+																		</div>
+																	</div>
+																	<div class="media mg-t-15 profile-footer">
+																		<div class="media-user me-2">
+																			<div class="demo-avatar-group">
+																				<div
+																					class="demo-avatar-group main-avatar-list-stacked">
+																					<div class="main-img-user"><img
+																							alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/12.jpg">
+																					</div>
+																					<div class="main-img-user online">
+																						<img alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/7.jpg">
+																					</div>
+																					<div class="main-img-user"><img
+																							alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/2.jpg">
+																					</div>
+																					<div class="main-img-user online">
+																						<img alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/5.jpg">
+																					</div>
+																					<div class="main-img-user"><img
+																							alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/6.jpg">
+																					</div>
+																					<div class="main-avatar"> +23
+																					</div>
+																				</div>
+																				<!-- demo-avatar-group -->
+																			</div>
+																			<!-- demo-avatar-group -->
+
+																		</div>
+																		<div class="media-body">
+																			<h6 class="mb-0 mg-t-10">28 Pessoas que
+																				gostaram</h6>
+																		</div>
+																		<div class="ms-auto">
+																			<div class="dropdown show"> <a class="new"
+																					href="JavaScript:void(0);"><i
+																						class="far fa-heart me-3"></i></a>
+																				<a class="new"
+																					href="JavaScript:void(0);"><i
+																						class="far fa-comment me-3"></i></a>
+																				<a class="new"
+																					href="JavaScript:void(0);"><i
+																						class="far fa-share-square"></i></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="card mg-b-20 border">
+																<div class="card-header p-4">
+																	<div class="media">
+																		<div class="media-user me-2">
+																			<div class="main-img-user avatar-md">
+																				<img alt="" class="rounded-circle"
+																					src="../assets/img/users/6.jpg">
+																			</div>
+																		</div>
+																		<div class="media-body">
+																			<h6 class="mb-0 ms-2 mg-t-3">Ederson
+																				Feliciano Corsatto</h6><span
+																				class="text-muted ms-2">Sep 26 2019,
+																				10:14am</span>
+																		</div>
+																		<div class="ms-auto">
+																			<div class="dropdown show"> <a
+																					class="new option-dots2"
+																					data-bs-toggle="dropdown"
+																					href="JavaScript:void(0);"><i
+																						class="fas fa-ellipsis-v"></i></a>
+																				<div
+																					class="dropdown-menu dropdown-menu-end shadow">
+																					<a class="dropdown-item"
+																						href="#">Edit Post</a> <a
+																						class="dropdown-item"
+																						href="#">Delete Post</a> <a
+																						class="dropdown-item"
+																						href="#">Personal
+																						Settings</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="card-body h-100">
+																	<p class="mg-t-0">VERIFICAR</p>
+																	<div class="media mg-t-15 profile-footer">
+																		<div class="media-user me-2">
+																			<div class="demo-avatar-group">
+																				<div
+																					class="demo-avatar-group main-avatar-list-stacked">
+																					<div class="main-img-user online">
+																						<img alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/12.jpg">
+																					</div>
+																					<div class="main-img-user"><img
+																							alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/3.jpg">
+																					</div>
+																					<div class="main-img-user"><img
+																							alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/4.jpg">
+																					</div>
+																					<div class="main-img-user"><img
+																							alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/9.jpg">
+																					</div>
+																					<div class="main-img-user online">
+																						<img alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/10.jpg">
+																					</div>
+																					<div class="main-avatar"> +23
+																					</div>
+																				</div>
+																				<!-- demo-avatar-group -->
+																			</div>
+																			<!-- demo-avatar-group -->
+																		</div>
+																		<div class="media-body">
+																			<h6 class="mb-0 mg-t-10">28 Pessoas que
+																				gostaram</h6>
+																		</div>
+																		<div class="ms-auto">
+																			<div class="dropdown show"> <a class="new"
+																					href="JavaScript:void(0);"><i
+																						class="far fa-heart me-3"></i></a>
+																				<a class="new"
+																					href="JavaScript:void(0);"><i
+																						class="far fa-comment me-3"></i></a>
+																				<a class="new"
+																					href="JavaScript:void(0);"><i
+																						class="far fa-share-square"></i></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="card border">
+																<div class="card-header p-4">
+																	<div class="media">
+																		<div class="media-user me-2">
+																			<div class="main-img-user avatar-md">
+																				<img alt="" class="rounded-circle"
+																					src="../assets/img/users/2.jpg">
+																			</div>
+																		</div>
+																		<div class="media-body">
+																			<h6 class="mb-0 ms-2 mg-t-3">Ederson
+																				Feliciano Corsatto</h6><span
+																				class="text-muted ms-2">Sep 26 2019,
+																				10:14am</span>
+																		</div>
+																		<div class="ms-auto">
+																			<div class="dropdown show"> <a
+																					class="new option-dots2"
+																					data-bs-toggle="dropdown"
+																					href="JavaScript:void(0);"><i
+																						class="fas fa-ellipsis-v"></i></a>
+																				<div
+																					class="dropdown-menu dropdown-menu-end shadow">
+																					<a class="dropdown-item"
+																						href="#">Edit Post</a> <a
+																						class="dropdown-item"
+																						href="#">Delete Post</a> <a
+																						class="dropdown-item"
+																						href="#">Personal
+																						Settings</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="card-body h-100">
+																	<p class="mg-t-0">
+																		O desenvolvimento de sistemas
+																		baseados em microserviços envolve a arquitetura
+																		de software onde a aplicação é dividida em
+																		serviços independentes e pequenos. Isso promove
+																		escalabilidade, flexibilidade e facilita a
+																		manutenção, permitindo que cada serviço seja
+																		desenvolvido, implantado e escalonado de forma
+																		independente. Microserviços são frequentemente
+																		adotados para suportar aplicações complexas e
+																		distribuídas de forma eficiente.
+																	</p>
+																	<div class="row row-sm">
+																		<div class="col"> <img alt="img"
+																				class="wd-200 me-3"
+																				src="../assets/img/media/services.png">
+																			<img alt="img" class="wd-200"
+																				src="../assets/img/media/services2.png">
+																		</div>
+																	</div>
+																	<div class="media mg-t-15 profile-footer">
+																		<div class="media-user me-2">
+																			<div class="demo-avatar-group">
+																				<div
+																					class="demo-avatar-group main-avatar-list-stacked">
+																					<div class="main-img-user online">
+																						<img alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/11.jpg">
+																					</div>
+																					<div class="main-img-user"><img
+																							alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/12.jpg">
+																					</div>
+																					<div class="main-img-user"><img
+																							alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/3.jpg">
+																					</div>
+																					<div class="main-img-user"><img
+																							alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/4.jpg">
+																					</div>
+																					<div class="main-img-user online">
+																						<img alt=""
+																							class="rounded-circle"
+																							src="../assets/img/users/5.jpg">
+																					</div>
+																					<div class="main-avatar"> +23
+																					</div>
+																				</div>
+																				<!-- demo-avatar-group -->
+																			</div>
+																			<!-- demo-avatar-group -->
+																		</div>
+																		<div class="media-body">
+																			<h6 class="mb-0 mg-t-10">28 Pessoas que
+																				gostaram</h6>
+																		</div>
+																		<div class="ms-auto">
+																			<div class="dropdown show"> <a class="new"
+																					href="JavaScript:void(0);"><i
+																						class="far fa-heart me-3"></i></a>
+																				<a class="new"
+																					href="JavaScript:void(0);"><i
+																						class="far fa-comment me-3"></i></a>
+																				<a class="new"
+																					href="JavaScript:void(0);"><i
+																						class="far fa-share-square"></i></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- main-profile-body -->
+											</div>
+										</div>
+									</div>
+
+									<!-- QUARTA ABA -->
+									<div class="main-content-body p-4 border tab-pane border-top-0" id="gallery">
+										<div class="card-body border">
+											<div class="demo-gallery">
+												<ul id="lightgallery" class="list-unstyled row row-sm">
+													<li class="col-sm-6 col-lg-4"
+														data-responsive="../assets/img/media/1.jpg"
+														data-src="../assets/img/media/1.jpg"
+														data-sub-html="<h4>Gallery Image 1</h4>">
+														<a href="" class="wd-100p"><img
+																class="img-responsive mb-4 wd-100p"
+																src="../assets/img/media/1.jpg" alt="Thumb-1"> </a>
+													</li>
+													<li class="col-sm-6 col-lg-4"
+														data-responsive="../assets/img/media/2.jpg"
+														data-src="../assets/img/media/2.jpg"
+														data-sub-html="<h4>Gallery Image 2</h4>">
+														<a href="" class="wd-100p"><img class="img-responsive mb-4"
+																src="../assets/img/media/2.jpg" alt="Thumb-1"> </a>
+													</li>
+													<li class="col-sm-6 col-lg-4"
+														data-responsive="../assets/img/media/3.jpg"
+														data-src="../assets/img/media/3.jpg"
+														data-sub-html="<h4>Gallery Image 3</h4>">
+														<a href="" class="wd-100p"><img class="img-responsive mb-4"
+																src="../assets/img/media/3.jpg" alt="Thumb-1"> </a>
+													</li>
+													<li class="col-sm-6 col-lg-4"
+														data-responsive="../assets/img/media/4.jpg"
+														data-src="../assets/img/media/4.jpg"
+														data-sub-html="<h4>Gallery Image 4</h4>">
+														<a href="" class="wd-100p"><img class="img-responsive mb-4"
+																src="../assets/img/media/4.jpg" alt="Thumb-1"> </a>
+													</li>
+													<li class="col-sm-6 col-lg-4"
+														data-responsive="../assets/img/media/5.jpg"
+														data-src="../assets/img/media/5.jpg"
+														data-sub-html="<h4>Gallery Image 5</h4>">
+														<a href="" class="wd-100p"><img class="img-responsive mb-4"
+																src="../assets/img/media/5.jpg" alt="Thumb-1"> </a>
+													</li>
+													<li class="col-sm-6 col-lg-4"
+														data-responsive="../assets/img/media/6.jpg"
+														data-src="../assets/img/media/6.jpg"
+														data-sub-html="<h4>Gallery Image 6</h4>">
+														<a href="" class="wd-100p"><img class="img-responsive mb-4"
+																src="../assets/img/media/6.jpg" alt="Thumb-1"> </a>
+													</li>
+													<li class="col-sm-6 col-lg-4"
+														data-responsive="../assets/img/media/7.jpg"
+														data-src="../assets/img/media/7.jpg"
+														data-sub-html="<h4>Gallery Image 7</h4>">
+														<a href="" class="wd-100p"><img
+																class="img-responsive mb-4 mb-lg-0"
+																src="../assets/img/media/7.jpg" alt="Thumb-1"> </a>
+													</li>
+													<li class="col-sm-6 col-lg-4"
+														data-responsive="../assets/img/media/8.jpg"
+														data-src="../assets/img/media/8.jpg"
+														data-sub-html="<h4>Gallery Image 8</h4>">
+														<a href="" class="wd-100p"><img
+																class="img-responsive mb-4 mb-lg-0"
+																src="../assets/img/media/8.jpg" alt="Thumb-1"> </a>
+													</li>
+													<li class="col-sm-6 col-lg-4"
+														data-responsive="../assets/img/media/9.jpg"
+														data-src="../assets/img/media/9.jpg"
+														data-sub-html="<h4>Gallery Image 9</h4>">
+														<a href="" class="wd-100p"><img
+																class="img-responsive mb-4 mb-lg-0"
+																src="../assets/img/media/9.jpg" alt="Thumb-1"> </a>
+													</li>
+												</ul>
+												<!-- /Gallery -->
+											</div>
+										</div>
+									</div>
+
+									<!-- QUINTA E ULTIMA ABA -->
+									<div class="main-content-body tab-pane border-top-0" id="friends">
+										<div class="card-body border pd-b-10">
+											<!-- row -->
+											<div class="row row-sm">
+												<div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+													<div class="card custom-card border">
+														<div class="card-body text-center">
+															<div class="user-lock text-center">
+																<div class="dropdown text-end">
+																	<a href="#" class="option-dots"
+																		data-bs-toggle="dropdown" aria-haspopup="true"
+																		aria-expanded="true">
+																		<i class="fe fe-more-vertical"></i> </a>
+																	<div class="dropdown-menu dropdown-menu-end shadow">
+																		<a class="dropdown-item" href="#"><i
+																				class="fe fe-message-square me-2"></i>
+																			Message</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-edit-2 me-2"></i>
+																			Edit</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-eye me-2"></i>
+																			View</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-trash-2 me-2"></i>
+																			Delete</a>
+																	</div>
+																</div>
+																<a href="profile.html"><img alt="avatar"
+																		class="rounded-circle"
+																		src="../assets/img/users/2.jpg"></a>
+															</div>
+															<a href="profile.html">
+																<h5 class=" mb-1 mt-3 main-content-label">Thyrso Mancinni</h5>
+															</a>
+															<p class="mb-2 mt-1 tx-inverse">Project Manager / Tech Lead</p>
+															<p class="text-muted text-center mt-1">Aqui vai o texto descritivo do perfil de apresentação do usuário.</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+													<div class="card custom-card border">
+														<div class="card-body text-center">
+															<div class="user-lock text-center">
+																<div class="dropdown text-end">
+																	<a href="#" class="option-dots"
+																		data-bs-toggle="dropdown" aria-haspopup="true"
+																		aria-expanded="true">
+																		<i class="fe fe-more-vertical"></i> </a>
+																	<div class="dropdown-menu dropdown-menu-end shadow">
+																		<a class="dropdown-item" href="#"><i
+																				class="fe fe-message-square me-2"></i>
+																			Message</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-edit-2 me-2"></i>
+																			Edit</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-eye me-2"></i>
+																			View</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-trash-2 me-2"></i>
+																			Delete</a>
+																	</div>
+																</div>
+																<a href="profile.html"><img alt="avatar"
+																		class="rounded-circle"
+																		src="../assets/img/users/3.jpg"></a>
+															</div>
+															<a href="profile.html">
+																<h5 class="mb-1 mt-3  main-content-label">Gabriel Henrique</h5>
+															</a>
+															<p class="mb-2 mt-1 tx-inverse">Backend Senior Developer</p>
+															<p class="text-muted text-center mt-1">Aqui vai o texto descritivo do perfil de apresentação do usuário.</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+													<div class="card custom-card border">
+														<div class="card-body text-center">
+															<div class="user-lock text-center">
+																<div class="dropdown text-end">
+																	<a href="#" class="option-dots"
+																		data-bs-toggle="dropdown" aria-haspopup="true"
+																		aria-expanded="true">
+																		<i class="fe fe-more-vertical"></i> </a>
+																	<div class="dropdown-menu dropdown-menu-end shadow">
+																		<a class="dropdown-item" href="#"><i
+																				class="fe fe-message-square me-2"></i>
+																			Message</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-edit-2 me-2"></i>
+																			Edit</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-eye me-2"></i>
+																			View</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-trash-2 me-2"></i>
+																			Delete</a>
+																	</div>
+																</div>
+																<a href="profile.html"><img alt="avatar"
+																		class="rounded-circle"
+																		src="../assets/img/users/4.jpg"></a>
+															</div>
+															<a href="profile.html">
+																<h5 class="mb-1 mt-3 main-content-label">Eduardo Tomimori</h5>
+															</a>
+															<p class="mb-2 mt-1 tx-inverse">Web Designer Developer</p>
+															<p class="text-muted text-center mt-1">Aqui vai o texto descritivo do perfil de apresentação do usuário.</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+													<div class="card custom-card border">
+														<div class="card-body text-center">
+															<div class="user-lock text-center">
+																<div class="dropdown text-end">
+																	<a href="#" class="option-dots"
+																		data-bs-toggle="dropdown" aria-haspopup="true"
+																		aria-expanded="true">
+																		<i class="fe fe-more-vertical"></i> </a>
+																	<div class="dropdown-menu dropdown-menu-end shadow">
+																		<a class="dropdown-item" href="#"><i
+																				class="fe fe-message-square me-2"></i>
+																			Message</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-edit-2 me-2"></i>
+																			Edit</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-eye me-2"></i>
+																			View</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-trash-2 me-2"></i>
+																			Delete</a>
+																	</div>
+																</div>
+																<a href="profile.html"><img alt="avatar"
+																		class="rounded-circle"
+																		src="../assets/img/users/8.jpg"></a>
+															</div>
+															<a href="profile.html">
+																<h5 class="mb-1 mt-3 main-content-label">Alef H. de Souza</h5>
+															</a>
+															<p class="mb-2 mt-1 tx-inverse">Administrator</p>
+															<p class="text-muted text-center mt-1">Aqui vai o texto descritivo do perfil de apresentação do usuário.</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+													<div class="card custom-card border">
+														<div class="card-body text-center">
+															<div class="user-lock text-center">
+																<div class="dropdown text-end">
+																	<a href="#" class="option-dots"
+																		data-bs-toggle="dropdown" aria-haspopup="true"
+																		aria-expanded="true">
+																		<i class="fe fe-more-vertical"></i> </a>
+																	<div class="dropdown-menu dropdown-menu-end shadow">
+																		<a class="dropdown-item" href="#"><i
+																				class="fe fe-message-square me-2"></i>
+																			Message</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-edit-2 me-2"></i>
+																			Edit</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-eye me-2"></i>
+																			View</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-trash-2 me-2"></i>
+																			Delete</a>
+																	</div>
+																</div>
+																<a href="profile.html"> <img alt="avatar"
+																		class="rounded-circle"
+																		src="../assets/img/users/2.jpg"></a>
+															</div>
+															<a href="profile.html">
+																<h5 class=" mb-1 mt-3 main-content-label">Marcos Giorlando</h5>
+															</a>
+															<p class="mb-2 mt-1 tx-inverse">Cyber Security Senior</p>
+															<p class="text-muted text-center mt-1">Aqui vai o texto descritivo do perfil de apresentação do usuário.</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+													<div class="card custom-card border">
+														<div class="card-body text-center">
+															<div class="user-lock text-center">
+																<div class="dropdown text-end">
+																	<a href="#" class="option-dots"
+																		data-bs-toggle="dropdown" aria-haspopup="true"
+																		aria-expanded="true">
+																		<i class="fe fe-more-vertical"></i> </a>
+																	<div class="dropdown-menu dropdown-menu-end shadow">
+																		<a class="dropdown-item" href="#"><i
+																				class="fe fe-message-square me-2"></i>
+																			Message</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-edit-2 me-2"></i>
+																			Edit</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-eye me-2"></i>
+																			View</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-trash-2 me-2"></i>
+																			Delete</a>
+																	</div>
+																</div>
+																<a href="profile.html"> <img alt="avatar"
+																		class="rounded-circle"
+																		src="../assets/img/users/3.jpg"></a>
+															</div>
+															<a href="profile.html">
+																<h5 class="mb-1 mt-3  main-content-label">Jean Simon</h5>
+															</a>
+															<p class="mb-2 mt-1 tx-inverse">Callcenter support</p>
+															<p class="text-muted text-center mt-1">Aqui vai o texto descritivo do perfil de apresentação do usuário.</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+													<div class="card custom-card border">
+														<div class="card-body text-center">
+															<div class="user-lock text-center">
+																<div class="dropdown text-end">
+																	<a href="#" class="option-dots"
+																		data-bs-toggle="dropdown" aria-haspopup="true"
+																		aria-expanded="true">
+																		<i class="fe fe-more-vertical"></i> </a>
+																	<div class="dropdown-menu dropdown-menu-end shadow">
+																		<a class="dropdown-item" href="#"><i
+																				class="fe fe-message-square me-2"></i>
+																			Message</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-edit-2 me-2"></i>
+																			Edit</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-eye me-2"></i>
+																			View</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-trash-2 me-2"></i>
+																			Delete</a>
+																	</div>
+																</div>
+																<a href="profile.html"><img alt="avatar"
+																		class="rounded-circle"
+																		src="../assets/img/users/4.jpg"></a>
+															</div>
+															<a href="profile.html">
+																<h5 class="mb-1 mt-3 main-content-label">Hermógenes Júnior</h5>
+															</a>
+															<p class="mb-2 mt-1 tx-inverse">Senior in Infrastructure</p>
+															<p class="text-muted text-center mt-1">Aqui vai o texto descritivo do perfil de apresentação do usuário.</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+													<div class="card custom-card border">
+														<div class="card-body text-center">
+															<div class="user-lock text-center">
+																<div class="dropdown text-end">
+																	<a href="#" class="option-dots"
+																		data-bs-toggle="dropdown" aria-haspopup="true"
+																		aria-expanded="true">
+																		<i class="fe fe-more-vertical"></i> </a>
+																	<div class="dropdown-menu dropdown-menu-end shadow">
+																		<a class="dropdown-item" href="#"><i
+																				class="fe fe-message-square me-2"></i>
+																			Message</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-edit-2 me-2"></i>
+																			Edit</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-eye me-2"></i>
+																			View</a> <a class="dropdown-item"
+																			href="#"><i class="fe fe-trash-2 me-2"></i>
+																			Delete</a>
+																	</div>
+																</div>
+																<a href="profile.html"><img alt="avatar"
+																		class="rounded-circle"
+																		src="../assets/img/users/8.jpg"></a>
+															</div>
+															<a href="profile.html">
+																<h5 class="mb-1 mt-3 main-content-label">Aline Haskwell</h5>
+															</a>
+															<p class="mb-2 mt-1 tx-inverse">DBA Administrator</p>
+															<p class="text-muted text-center mt-1">Aqui vai o texto descritivo do perfil de apresentação do usuário.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- SEXTA E ULTIMA ABA -->
+									<div class="main-content-body tab-pane p-4 border-top-0" id="settings">
+										<div class="card-body border" data-select2-id="12">
+											<form class="form-horizontal" data-select2-id="11">
+												<div class="mb-4 main-content-label">Conta</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-3">
+															<label class="form-label">User Name</label>
+														</div>
+														<div class="col-md-9">
+															<input type="text" class="form-control"
+																placeholder="User Name" value="Edersonfc7">
+														</div>
+													</div>
+												</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-3">
+															<label class="form-label">Email</label>
+														</div>
+														<div class="col-md-9">
+															<input type="text" class="form-control" placeholder="Email"
+																value="edersonfc7@gmail.com">
+														</div>
+													</div>
+												</div>
+												<div class="form-group " data-select2-id="108">
+													<div class="row" data-select2-id="107">
+														<div class="col-md-3">
+															<label class="form-label">Idioma</label>
+														</div>
+														<div class="col-md-9" data-select2-id="106">
+															<select class="form-control select2" data-select2-id="5"
+																tabindex="-1" aria-hidden="true">
+																<option data-select2-id="35">Português Brasil</option>
+																<option data-select2-id="33">Inglês</option>
+																<option data-select2-id="109">Japonês</option>
+																<option data-select2-id="110">Espanhol</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="form-group " data-select2-id="10">
+													<div class="row" data-select2-id="9">
+														<div class="col-md-3">
+															<label class="form-label">Timezone</label>
+														</div>
+														<div class="col-md-9" data-select2-id="8">
+															<select class="form-control select2" data-select2-id="4"
+																tabindex="-1" aria-hidden="true">
+																<option value="Pacific/Midway" data-select2-id="6">
+																	(GMT-11:00) Midway Island, Samoa</option>
+																<option value="America/Adak" data-select2-id="16">
+																	(GMT-10:00) Hawaii-Aleutian</option>
+																<option value="Etc/GMT+10" data-select2-id="17">
+																	(GMT-10:00) Hawaii</option>
+																<option value="Pacific/Marquesas" data-select2-id="18">
+																	(GMT-09:30) Marquesas Islands</option>
+																<option value="Pacific/Gambier" data-select2-id="19">
+																	(GMT-09:00) Gambier Islands</option>
+																<option value="America/Anchorage" data-select2-id="20">
+																	(GMT-09:00) Alaska</option>
+																<option value="America/Ensenada" data-select2-id="21">
+																	(GMT-08:00) Tijuana, Baja California</option>
+																<option value="Etc/GMT+8" data-select2-id="22">
+																	(GMT-08:00) Pitcairn Islands</option>
+																<option value="America/Los_Angeles"
+																	data-select2-id="23">(GMT-08:00) Pacific Time
+																	(US
+																	&amp; Canada)</option>
+																<option value="America/Denver" data-select2-id="24">
+																	(GMT-07:00) Mountain Time (US &amp; Canada)
+																</option>
+																<option value="America/Chihuahua" data-select2-id="25">
+																	(GMT-07:00) Chihuahua, La Paz, Mazatlan</option>
+																<option value="America/Dawson_Creek"
+																	data-select2-id="26">(GMT-07:00) Arizona
+																</option>
+																<option value="America/Belize" data-select2-id="27">
+																	(GMT-06:00) Saskatchewan, Central America
+																</option>
+																<option value="America/Cancun" data-select2-id="28">
+																	(GMT-06:00) Guadalajara, Mexico City, Monterrey
+																</option>
+																<option value="Chile/EasterIsland" data-select2-id="29">
+																	(GMT-06:00) Easter Island</option>
+																<option value="America/Chicago" data-select2-id="30">
+																	(GMT-06:00) Central Time (US &amp; Canada)
+																</option>
+																<option value="America/New_York" data-select2-id="31">
+																	(GMT-05:00) Eastern Time (US &amp; Canada)
+																</option>
+																<option value="America/Havana" data-select2-id="32">
+																	(GMT-05:00) Cuba</option>
+																<option value="America/Bogota" data-select2-id="33">
+																	(GMT-05:00) Bogota, Lima, Quito, Rio Branco
+																</option>
+																<option value="America/Caracas" data-select2-id="34">
+																	(GMT-04:30) Caracas</option>
+																<option value="America/Santiago" data-select2-id="35">
+																	(GMT-04:00) Santiago</option>
+																<option value="America/La_Paz" data-select2-id="36">
+																	(GMT-04:00) La Paz</option>
+																<option value="Atlantic/Stanley" data-select2-id="37">
+																	(GMT-04:00) Faukland Islands</option>
+																<option value="America/Campo_Grande"
+																	data-select2-id="38">(GMT-04:00) Brazil</option>
+																<option value="America/Goose_Bay" data-select2-id="39">
+																	(GMT-04:00) Atlantic Time (Goose Bay)</option>
+																<option value="America/Glace_Bay" data-select2-id="40">
+																	(GMT-04:00) Atlantic Time (Canada)</option>
+																<option value="America/St_Johns" data-select2-id="41">
+																	(GMT-03:30) Newfoundland</option>
+																<option value="America/Araguaina" data-select2-id="42">
+																	(GMT-03:00) UTC-3</option>
+																<option value="America/Montevideo" data-select2-id="43">
+																	(GMT-03:00) Montevideo</option>
+																<option value="America/Miquelon" data-select2-id="44">
+																	(GMT-03:00) Miquelon, St. Pierre</option>
+																<option value="America/Godthab" data-select2-id="45">
+																	(GMT-03:00) Greenland</option>
+																<option value="America/Argentina/Buenos_Aires"
+																	data-select2-id="46">(GMT-03:00) Buenos Aires
+																</option>
+																<option value="America/Sao_Paulo" data-select2-id="47">
+																	(GMT-03:00) Brasilia</option>
+																<option value="America/Noronha" data-select2-id="48">
+																	(GMT-02:00) Mid-Atlantic</option>
+																<option value="Atlantic/Cape_Verde"
+																	data-select2-id="49">(GMT-01:00) Cape Verde Is.
+																</option>
+																<option value="Atlantic/Azores" data-select2-id="50">
+																	(GMT-01:00) Azores</option>
+																<option value="Europe/Belfast" data-select2-id="51">
+																	(GMT) Greenwich Mean Time : Belfast</option>
+																<option value="Europe/Dublin" data-select2-id="52">
+																	(GMT)
+																	Greenwich Mean Time : Dublin</option>
+																<option value="Europe/Lisbon" data-select2-id="53">
+																	(GMT)
+																	Greenwich Mean Time : Lisbon</option>
+																<option value="Europe/London" data-select2-id="54">
+																	(GMT)
+																	Greenwich Mean Time : London</option>
+																<option value="Africa/Abidjan" data-select2-id="55">
+																	(GMT) Monrovia, Reykjavik</option>
+																<option value="Europe/Amsterdam" data-select2-id="56">
+																	(GMT+01:00) Amsterdam, Berlin, Bern, Rome,
+																	Stockholm, Vienna</option>
+																<option value="Europe/Belgrade" data-select2-id="57">
+																	(GMT+01:00) Belgrade, Bratislava, Budapest,
+																	Ljubljana, Prague</option>
+																<option value="Europe/Brussels" data-select2-id="58">
+																	(GMT+01:00) Brussels, Copenhagen, Madrid, Paris
+																</option>
+																<option value="Africa/Algiers" data-select2-id="59">
+																	(GMT+01:00) West Central Africa</option>
+																<option value="Africa/Windhoek" data-select2-id="60">
+																	(GMT+01:00) Windhoek</option>
+																<option value="Asia/Beirut" data-select2-id="61">
+																	(GMT+02:00) Beirut</option>
+																<option value="Africa/Cairo" data-select2-id="62">
+																	(GMT+02:00) Cairo</option>
+																<option value="Asia/Gaza" data-select2-id="63">
+																	(GMT+02:00) Gaza</option>
+																<option value="Africa/Blantyre" data-select2-id="64">
+																	(GMT+02:00) Harare, Pretoria</option>
+																<option value="Asia/Jerusalem" data-select2-id="65">
+																	(GMT+02:00) Jerusalem</option>
+																<option value="Europe/Minsk" data-select2-id="66">
+																	(GMT+02:00) Minsk</option>
+																<option value="Asia/Damascus" data-select2-id="67">
+																	(GMT+02:00) Syria</option>
+																<option value="Europe/Moscow" data-select2-id="68">
+																	(GMT+03:00) Moscow, St. Petersburg, Volgograd
+																</option>
+																<option value="Africa/Addis_Ababa" data-select2-id="69">
+																	(GMT+03:00) Nairobi</option>
+																<option value="Asia/Tehran" data-select2-id="70">
+																	(GMT+03:30) Tehran</option>
+																<option value="Asia/Dubai" data-select2-id="71">
+																	(GMT+04:00) Abu Dhabi, Muscat</option>
+																<option value="Asia/Yerevan" data-select2-id="72">
+																	(GMT+04:00) Yerevan</option>
+																<option value="Asia/Kabul" data-select2-id="73">
+																	(GMT+04:30) Kabul</option>
+																<option value="Asia/Yekaterinburg" data-select2-id="74">
+																	(GMT+05:00) Ekaterinburg</option>
+																<option value="Asia/Tashkent" data-select2-id="75">
+																	(GMT+05:00) Tashkent</option>
+																<option value="Asia/Kolkata" data-select2-id="76">
+																	(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi
+																</option>
+																<option value="Asia/Katmandu" data-select2-id="77">
+																	(GMT+05:45) Kathmandu</option>
+																<option value="Asia/Dhaka" data-select2-id="78">
+																	(GMT+06:00) Astana, Dhaka</option>
+																<option value="Asia/Novosibirsk" data-select2-id="79">
+																	(GMT+06:00) Novosibirsk</option>
+																<option value="Asia/Rangoon" data-select2-id="80">
+																	(GMT+06:30) Yangon (Rangoon)</option>
+																<option value="Asia/Bangkok" data-select2-id="81">
+																	(GMT+07:00) Bangkok, Hanoi, Jakarta</option>
+																<option value="Asia/Krasnoyarsk" data-select2-id="82">
+																	(GMT+07:00) Krasnoyarsk</option>
+																<option value="Asia/Hong_Kong" data-select2-id="83">
+																	(GMT+08:00) Beijing, Chongqing, Hong Kong,
+																	Urumqi
+																</option>
+																<option value="Asia/Irkutsk" data-select2-id="84">
+																	(GMT+08:00) Irkutsk, Ulaan Bataar</option>
+																<option value="Australia/Perth" data-select2-id="85">
+																	(GMT+08:00) Perth</option>
+																<option value="Australia/Eucla" data-select2-id="86">
+																	(GMT+08:45) Eucla</option>
+																<option value="Asia/Tokyo" data-select2-id="87">
+																	(GMT+09:00) Osaka, Sapporo, Tokyo</option>
+																<option value="Asia/Seoul" data-select2-id="88">
+																	(GMT+09:00) Seoul</option>
+																<option value="Asia/Yakutsk" data-select2-id="89">
+																	(GMT+09:00) Yakutsk</option>
+																<option value="Australia/Adelaide" data-select2-id="90">
+																	(GMT+09:30) Adelaide</option>
+																<option value="Australia/Darwin" data-select2-id="91">
+																	(GMT+09:30) Darwin</option>
+																<option value="Australia/Brisbane" data-select2-id="92">
+																	(GMT+10:00) Brisbane</option>
+																<option value="Australia/Hobart" data-select2-id="93">
+																	(GMT+10:00) Hobart</option>
+																<option value="Asia/Vladivostok" data-select2-id="94">
+																	(GMT+10:00) Vladivostok</option>
+																<option value="Australia/Lord_Howe"
+																	data-select2-id="95">(GMT+10:30) Lord Howe
+																	Island
+																</option>
+																<option value="Etc/GMT-11" data-select2-id="96">
+																	(GMT+11:00) Solomon Is., New Caledonia</option>
+																<option value="Asia/Magadan" data-select2-id="97">
+																	(GMT+11:00) Magadan</option>
+																<option value="Pacific/Norfolk" data-select2-id="98">
+																	(GMT+11:30) Norfolk Island</option>
+																<option value="Asia/Anadyr" data-select2-id="99">
+																	(GMT+12:00) Anadyr, Kamchatka</option>
+																<option value="Pacific/Auckland" data-select2-id="100">
+																	(GMT+12:00) Auckland, Wellington</option>
+																<option value="Etc/GMT-12" data-select2-id="101">
+																	(GMT+12:00) Fiji, Kamchatka, Marshall Is.
+																</option>
+																<option value="Pacific/Chatham" data-select2-id="102">
+																	(GMT+12:45) Chatham Islands</option>
+																<option value="Pacific/Tongatapu" data-select2-id="103">
+																	(GMT+13:00) Nuku'alofa</option>
+																<option value="Pacific/Kiritimati"
+																	data-select2-id="104">(GMT+14:00) Kiritimati
+																</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-3 col">
+															<label class="form-label">Verificação</label>
+														</div>
+														<div class="col-md-9 col">
+															<label class="ckbox mg-b-10">
+																<input type="checkbox"><span>Email</span></label>
+															<label class="ckbox mg-b-10">
+																<input checked=""
+																	type="checkbox"><span>SMS</span></label>
+															<label class="ckbox mg-b-10">
+																<input type="checkbox"><span>Celular</span></label>
+														</div>
+													</div>
+												</div>
+												<div class="mb-4 main-content-label">Configuração de Segurança</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-2">
+															<label class="form-label">Verificação Login</label>
+														</div>
+														<div class="col-md-10">
+															<a class="" href="#">Configurar Verificação</a>
+														</div>
+													</div>
+												</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-2">
+															<label class="form-label">Verificação de senha</label>
+														</div>
+														<div class="col-md-10">
+															<label class="ckbox mg-b-10">
+																<input type="checkbox"><span>Exigir dados
+																	pessoais</span></label>
+														</div>
+													</div>
+												</div>
+												<div class="form-group ">
+													<div class="row row-sm">
+														<div class="col-md-2"> </div>
+														<div class="col-md-10"> <a class="mg-r-20" href="#">Desativar
+																Conta</a> <a class="" href="#">Mudar Senha</a>
+														</div>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Row -->
+				</div>
+			</div>
+		</div>
+		<!-- End Main Content-->
+
+		<!-- Main Footer-->
+		<div class="main-footer text-center">
+			<div class="container">
+				<div class="row row-sm">
+					<div class="col-md-12">
+						<span>Copyright © 2024 &nbsp; Designed by
+							<a href="https://www.linkedin.com/in/ederson-feliciano-corsatto/"
+								target="_blank">Edersonfc7</a>
+							&nbsp;Todos direitos reservados.
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End Footer-->
+
+		<!-- Sidebar -->
+		<div class="sidebar sidebar-right sidebar-animate">
+			<div class="sidebar-icon">
+				<a href="javascript:void(0)" class="text-end float-end text-dark fs-20" data-bs-toggle="sidebar-right"
+					data-bs-target=".sidebar-right"><i class="fe fe-x"></i></a>
+			</div>
+			<div class="sidebar-body">
+				<h5>A fazer</h5>
+				<div class="d-flex p-3">
+					<label class="ckbox"><input checked type="checkbox"><span>Diagnóstico e tratamento</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<div class="d-flex p-3 border-top">
+					<label class="ckbox"><input type="checkbox"><span>Preparar para Apresentação</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<div class="d-flex p-3 border-top">
+					<label class="ckbox"><input type="checkbox"><span>Monitoramento de pacientes</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<div class="d-flex p-3 border-top">
+					<label class="ckbox"><input checked type="checkbox"><span>Educação em saúde</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<div class="d-flex p-3 border-top">
+					<label class="ckbox"><input type="checkbox"><span>Prevenção de doenças</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<div class="d-flex p-3 border-top">
+					<label class="ckbox"><input type="checkbox"><span>Colaboração interdisciplinar</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<div class="d-flex p-3 border-top">
+					<label class="ckbox"><input type="checkbox"><span>Planejamento Mensal</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<div class="d-flex p-3 border-top mb-0">
+					<label class="ckbox"><input type="checkbox"><span>Pesquisa clínica</span></label>
+					<span class="ms-auto">
+						<i class="fe fe-edit-2 text-primary me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Edit"></i>
+						<i class="fe fe-trash-2 text-danger me-2" data-bs-toggle="tooltip" title=""
+							data-bs-placement="top" data-bs-original-title="Delete"></i>
+					</span>
+				</div>
+				<h5>Visão Geral</h5>
+				<div class="p-4">
+					<div class="main-traffic-detail-item">
+						<div>
+							<span>Recrutamento de Profissionais</span> <span>24</span>
+						</div>
+						<div class="progress">
+							<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="20"
+								class="progress-bar progress-bar-xs wd-20p" role="progressbar"></div>
+						</div><!-- progress -->
+					</div>
+					<div class="main-traffic-detail-item">
+						<div>
+							<span>Agilidade na Atenção Básica</span> <span>25</span>
+						</div>
+						<div class="progress">
+							<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="15"
+								class="progress-bar progress-bar-xs bg-secondary wd-15p" role="progressbar"></div>
+						</div><!-- progress -->
+					</div>
+					<div class="main-traffic-detail-item">
+						<div>
+							<span>Eficiência em Prevenção </span> <span>87</span>
+						</div>
+						<div class="progress">
+							<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="45"
+								class="progress-bar progress-bar-xs bg-success wd-45p" role="progressbar"></div>
+						</div><!-- progress -->
+					</div>
+					<div class="main-traffic-detail-item">
+						<div>
+							<span>Encaminhamento entre Unidades</span> <span>32</span>
+						</div>
+						<div class="progress">
+							<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25"
+								class="progress-bar progress-bar-xs bg-info wd-25p" role="progressbar"></div>
+						</div><!-- progress -->
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- End Sidebar -->
+
+	</div>
+	<!-- End Page -->
+
+	<!-- Back-to-top -->
+	<a href="#top" id="back-to-top"><i class="fe fe-arrow-up"></i></a>
+
+	<!-- Jquery js-->
+	<script src="../assets/plugins/jquery/jquery.min.js"></script>
+
+	<!-- Bootstrap js-->
+	<script src="../assets/plugins/bootstrap/js/popper.min.js"></script>
+	<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Perfect-scrollbar js -->
+	<script src="../assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+
+	<!-- Internal Gallery js-->
+	<script src="../assets/plugins/gallery/picturefill.js"></script>
+	<script src="../assets/plugins/gallery/lightgallery.js"></script>
+	<script src="../assets/plugins/gallery/lightgallery-1.js"></script>
+	<script src="../assets/plugins/gallery/lg-pager.js"></script>
+	<script src="../assets/plugins/gallery/lg-autoplay.js"></script>
+	<script src="../assets/plugins/gallery/lg-fullscreen.js"></script>
+	<script src="../assets/plugins/gallery/lg-zoom.js"></script>
+	<script src="../assets/plugins/gallery/lg-hash.js"></script>
+	<script src="../assets/plugins/gallery/lg-share.js"></script>
+
+	<!-- Sidemenu js -->
+	<script src="../assets/plugins/sidemenu/sidemenu.js" id="leftmenu"></script>
+
+	<!-- Sidebar js -->
+	<script src="../assets/plugins/sidebar/sidebar.js"></script>
+
+	<!-- Select2 js-->
+	<script src="../assets/plugins/select2/js/select2.min.js"></script>
+	<script src="../assets/js/select2.js"></script>
+
+	<!-- Color Theme js -->
+	<script src="../assets/js/themeColors.js"></script>
+
+	<!-- Sticky js -->
+	<script src="../assets/js/sticky.js"></script>
+
+	<!-- Custom js -->
+	<script src="../assets/js/custom.js"></script>
+
+</body>
+
+</html>
