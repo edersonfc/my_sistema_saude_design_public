@@ -1,4 +1,5 @@
 ## <center>Algumas Telas do Sistema</center>
+### Telas totalmente responsivas
 
 Sistema de Saúde onde desenvolvi esse template de exemplo para refatoramento do sistema da empresa onde trabalhava.
 
@@ -25,3 +26,17 @@ Sistema de Saúde onde desenvolvi esse template de exemplo para refatoramento do
 
 #### Tela de Tarefas a Fazer
 ![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/tarefas_colaborativas.jpg)
+
+#### Tela de Login
+![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/tela_de_login.jpg)
+
+#### Tela de Login Modo Claro
+![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/tela_de_login_claro.jpg)
+
+#### Tela de Recuperação de Login
+![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/tela_recuperacao_senha.jpg)
+
+#### Tela de Recuperação de Login Modo Claro
+![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/tela_recuperacao_senha_claro.jpg)
+
+
