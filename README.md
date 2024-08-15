@@ -39,4 +39,6 @@ Sistema de Saúde onde desenvolvi esse template de exemplo para refatoramento do
 #### Tela de Recuperação de Login Modo Claro
 ![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/tela_recuperacao_senha_claro.jpg)
 
+<br>
 
+`Créditos` [www.linkedin.com/in/ederson-feliciano-corsatto](www.linkedin.com/in/ederson-feliciano-corsatto)
